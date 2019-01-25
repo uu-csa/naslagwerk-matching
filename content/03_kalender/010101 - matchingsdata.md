@@ -26,7 +26,6 @@ _____
 _____
 |COLLAPSIBLE
 ### BETA
-<h3>februari</h3>
 <h3>april</h3>
 <table border="1" class="dataframe matchingsdata">
   <thead>
@@ -45,25 +44,7 @@ _____
   </thead>
   <tbody>
     <tr>
-      <th>NAST</th>
-      <td>16/04/2019</td>
-      <td>01/10/2018</td>
-      <td>01/04/2019</td>
-    </tr>
-    <tr>
-      <th>WISK</th>
-      <td>16/04/2019</td>
-      <td>01/10/2018</td>
-      <td>01/04/2019</td>
-    </tr>
-    <tr>
       <th>BIOL</th>
-      <td>16/04/2019</td>
-      <td>01/10/2018</td>
-      <td>01/04/2019</td>
-    </tr>
-    <tr>
-      <th>INKU</th>
       <td>16/04/2019</td>
       <td>01/10/2018</td>
       <td>01/04/2019</td>
@@ -75,13 +56,31 @@ _____
       <td>01/04/2019</td>
     </tr>
     <tr>
-      <th>WSKT</th>
+      <th>INKU</th>
+      <td>16/04/2019</td>
+      <td>01/10/2018</td>
+      <td>01/04/2019</td>
+    </tr>
+    <tr>
+      <th>NAST</th>
       <td>16/04/2019</td>
       <td>01/10/2018</td>
       <td>01/04/2019</td>
     </tr>
     <tr>
       <th>SCHK</th>
+      <td>16/04/2019</td>
+      <td>01/10/2018</td>
+      <td>01/04/2019</td>
+    </tr>
+    <tr>
+      <th>WISK</th>
+      <td>16/04/2019</td>
+      <td>01/10/2018</td>
+      <td>01/04/2019</td>
+    </tr>
+    <tr>
+      <th>WSKT</th>
       <td>16/04/2019</td>
       <td>01/10/2018</td>
       <td>01/04/2019</td>
@@ -107,25 +106,7 @@ _____
   </thead>
   <tbody>
     <tr>
-      <th>NAST</th>
-      <td>06/06/2019</td>
-      <td>01/10/2018</td>
-      <td>22/05/2019</td>
-    </tr>
-    <tr>
-      <th>WISK</th>
-      <td>06/06/2019</td>
-      <td>01/10/2018</td>
-      <td>22/05/2019</td>
-    </tr>
-    <tr>
       <th>BIOL</th>
-      <td>06/06/2019</td>
-      <td>01/10/2018</td>
-      <td>22/05/2019</td>
-    </tr>
-    <tr>
-      <th>INKU</th>
       <td>06/06/2019</td>
       <td>01/10/2018</td>
       <td>22/05/2019</td>
@@ -137,13 +118,31 @@ _____
       <td>22/05/2019</td>
     </tr>
     <tr>
-      <th>WSKT</th>
+      <th>INKU</th>
+      <td>06/06/2019</td>
+      <td>01/10/2018</td>
+      <td>22/05/2019</td>
+    </tr>
+    <tr>
+      <th>NAST</th>
       <td>06/06/2019</td>
       <td>01/10/2018</td>
       <td>22/05/2019</td>
     </tr>
     <tr>
       <th>SCHK</th>
+      <td>06/06/2019</td>
+      <td>01/10/2018</td>
+      <td>22/05/2019</td>
+    </tr>
+    <tr>
+      <th>WISK</th>
+      <td>06/06/2019</td>
+      <td>01/10/2018</td>
+      <td>22/05/2019</td>
+    </tr>
+    <tr>
+      <th>WSKT</th>
       <td>06/06/2019</td>
       <td>01/10/2018</td>
       <td>22/05/2019</td>
@@ -169,25 +168,7 @@ _____
   </thead>
   <tbody>
     <tr>
-      <th>NAST</th>
-      <td>20/08/2019</td>
-      <td>23/05/2019</td>
-      <td>20/08/2019</td>
-    </tr>
-    <tr>
-      <th>WISK</th>
-      <td>20/08/2019</td>
-      <td>23/05/2019</td>
-      <td>20/08/2019</td>
-    </tr>
-    <tr>
       <th>BIOL</th>
-      <td>20/08/2019</td>
-      <td>23/05/2019</td>
-      <td>20/08/2019</td>
-    </tr>
-    <tr>
-      <th>INKU</th>
       <td>20/08/2019</td>
       <td>23/05/2019</td>
       <td>20/08/2019</td>
@@ -199,13 +180,31 @@ _____
       <td>20/08/2019</td>
     </tr>
     <tr>
-      <th>WSKT</th>
+      <th>INKU</th>
+      <td>20/08/2019</td>
+      <td>23/05/2019</td>
+      <td>20/08/2019</td>
+    </tr>
+    <tr>
+      <th>NAST</th>
       <td>20/08/2019</td>
       <td>23/05/2019</td>
       <td>20/08/2019</td>
     </tr>
     <tr>
       <th>SCHK</th>
+      <td>20/08/2019</td>
+      <td>23/05/2019</td>
+      <td>20/08/2019</td>
+    </tr>
+    <tr>
+      <th>WISK</th>
+      <td>20/08/2019</td>
+      <td>23/05/2019</td>
+      <td>20/08/2019</td>
+    </tr>
+    <tr>
+      <th>WSKT</th>
       <td>20/08/2019</td>
       <td>23/05/2019</td>
       <td>20/08/2019</td>
@@ -214,7 +213,6 @@ _____
 </table>
 
 ### GEO
-<h3>februari</h3>
 <h3>april</h3>
 <table border="1" class="dataframe matchingsdata">
   <thead>
@@ -233,10 +231,10 @@ _____
   </thead>
   <tbody>
     <tr>
-      <th>SGPB</th>
-      <td>18/04/2019</td>
+      <th>AARD</th>
+      <td>02/04/2019</td>
       <td>01/10/2018</td>
-      <td>03/04/2019</td>
+      <td>18/03/2019</td>
     </tr>
     <tr>
       <th>INMB</th>
@@ -245,10 +243,10 @@ _____
       <td>25/03/2019</td>
     </tr>
     <tr>
-      <th>AARD</th>
-      <td>02/04/2019</td>
+      <th>SGPB</th>
+      <td>18/04/2019</td>
       <td>01/10/2018</td>
-      <td>18/03/2019</td>
+      <td>03/04/2019</td>
     </tr>
   </tbody>
 </table>
@@ -271,10 +269,10 @@ _____
   </thead>
   <tbody>
     <tr>
-      <th>SGPB</th>
-      <td>27/06/2019</td>
+      <th>AARD</th>
+      <td>25/06/2019</td>
       <td>01/10/2018</td>
-      <td>12/06/2019</td>
+      <td>10/06/2019</td>
     </tr>
     <tr>
       <th>INMB</th>
@@ -283,10 +281,10 @@ _____
       <td>10/06/2019</td>
     </tr>
     <tr>
-      <th>AARD</th>
-      <td>25/06/2019</td>
+      <th>SGPB</th>
+      <td>27/06/2019</td>
       <td>01/10/2018</td>
-      <td>10/06/2019</td>
+      <td>12/06/2019</td>
     </tr>
   </tbody>
 </table>
@@ -309,10 +307,10 @@ _____
   </thead>
   <tbody>
     <tr>
-      <th>SGPB</th>
-      <td>22/08/2019</td>
-      <td>13/06/2019</td>
-      <td>22/08/2019</td>
+      <th>AARD</th>
+      <td>20/08/2019</td>
+      <td>11/06/2019</td>
+      <td>20/08/2019</td>
     </tr>
     <tr>
       <th>INMB</th>
@@ -321,16 +319,15 @@ _____
       <td>20/08/2019</td>
     </tr>
     <tr>
-      <th>AARD</th>
-      <td>20/08/2019</td>
-      <td>11/06/2019</td>
-      <td>20/08/2019</td>
+      <th>SGPB</th>
+      <td>22/08/2019</td>
+      <td>13/06/2019</td>
+      <td>22/08/2019</td>
     </tr>
   </tbody>
 </table>
 
 ### GW
-<h3>februari</h3>
 <h3>april</h3>
 <table border="1" class="dataframe matchingsdata">
   <thead>
@@ -348,6 +345,12 @@ _____
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <th>CIWB</th>
+      <td>12/04/2019</td>
+      <td>01/10/2018</td>
+      <td>28/03/2019</td>
+    </tr>
     <tr>
       <th>DUIB</th>
       <td>08/04/2019</td>
@@ -367,6 +370,18 @@ _____
       <td>02/04/2019</td>
     </tr>
     <tr>
+      <th>GESB</th>
+      <td>10/04/2019</td>
+      <td>01/10/2018</td>
+      <td>26/03/2019</td>
+    </tr>
+    <tr>
+      <th>HISB</th>
+      <td>11/04/2019</td>
+      <td>01/10/2018</td>
+      <td>27/03/2019</td>
+    </tr>
+    <tr>
       <th>ITAB</th>
       <td>09/04/2019</td>
       <td>01/10/2018</td>
@@ -379,46 +394,10 @@ _____
       <td>28/03/2019</td>
     </tr>
     <tr>
-      <th>MUZB</th>
-      <td>15/04/2019</td>
-      <td>01/10/2018</td>
-      <td>31/03/2019</td>
-    </tr>
-    <tr>
-      <th>TCSB</th>
-      <td>12/04/2019</td>
-      <td>01/10/2018</td>
-      <td>28/03/2019</td>
-    </tr>
-    <tr>
-      <th>TLWB</th>
-      <td>08/04/2019</td>
-      <td>01/10/2018</td>
-      <td>24/03/2019</td>
-    </tr>
-    <tr>
       <th>LASB</th>
       <td>09/04/2019</td>
       <td>01/10/2018</td>
       <td>25/03/2019</td>
-    </tr>
-    <tr>
-      <th>THEB</th>
-      <td>11/04/2019</td>
-      <td>01/10/2018</td>
-      <td>27/03/2019</td>
-    </tr>
-    <tr>
-      <th>GESB</th>
-      <td>10/04/2019</td>
-      <td>01/10/2018</td>
-      <td>26/03/2019</td>
-    </tr>
-    <tr>
-      <th>WBGB</th>
-      <td>16/04/2019</td>
-      <td>01/10/2018</td>
-      <td>01/04/2019</td>
     </tr>
     <tr>
       <th>LITB</th>
@@ -427,22 +406,40 @@ _____
       <td>28/03/2019</td>
     </tr>
     <tr>
+      <th>MUZB</th>
+      <td>15/04/2019</td>
+      <td>01/10/2018</td>
+      <td>31/03/2019</td>
+    </tr>
+    <tr>
       <th>SPAB</th>
       <td>09/04/2019</td>
       <td>01/10/2018</td>
       <td>25/03/2019</td>
     </tr>
     <tr>
-      <th>CIWB</th>
+      <th>TCSB</th>
       <td>12/04/2019</td>
       <td>01/10/2018</td>
       <td>28/03/2019</td>
     </tr>
     <tr>
-      <th>HISB</th>
+      <th>THEB</th>
       <td>11/04/2019</td>
       <td>01/10/2018</td>
       <td>27/03/2019</td>
+    </tr>
+    <tr>
+      <th>TLWB</th>
+      <td>08/04/2019</td>
+      <td>01/10/2018</td>
+      <td>24/03/2019</td>
+    </tr>
+    <tr>
+      <th>WBGB</th>
+      <td>16/04/2019</td>
+      <td>01/10/2018</td>
+      <td>01/04/2019</td>
     </tr>
   </tbody>
 </table>
@@ -465,6 +462,12 @@ _____
   </thead>
   <tbody>
     <tr>
+      <th>CIWB</th>
+      <td>27/05/2019</td>
+      <td>01/10/2018</td>
+      <td>12/05/2019</td>
+    </tr>
+    <tr>
       <th>DUIB</th>
       <td>27/05/2019</td>
       <td>01/10/2018</td>
@@ -483,7 +486,19 @@ _____
       <td>13/05/2019</td>
     </tr>
     <tr>
-      <th>THEO</th>
+      <th>GESB</th>
+      <td>05/06/2019</td>
+      <td>01/10/2018</td>
+      <td>21/05/2019</td>
+    </tr>
+    <tr>
+      <th>HISB</th>
+      <td>29/05/2019</td>
+      <td>01/10/2018</td>
+      <td>14/05/2019</td>
+    </tr>
+    <tr>
+      <th>ISAB</th>
       <td>06/06/2019</td>
       <td>01/10/2018</td>
       <td>22/05/2019</td>
@@ -507,6 +522,18 @@ _____
       <td>20/05/2019</td>
     </tr>
     <tr>
+      <th>LASB</th>
+      <td>06/06/2019</td>
+      <td>01/10/2018</td>
+      <td>22/05/2019</td>
+    </tr>
+    <tr>
+      <th>LITB</th>
+      <td>04/06/2019</td>
+      <td>01/10/2018</td>
+      <td>20/05/2019</td>
+    </tr>
+    <tr>
       <th>MUZB</th>
       <td>27/05/2019</td>
       <td>01/10/2018</td>
@@ -519,22 +546,16 @@ _____
       <td>14/05/2019</td>
     </tr>
     <tr>
+      <th>SPAB</th>
+      <td>29/05/2019</td>
+      <td>01/10/2018</td>
+      <td>14/05/2019</td>
+    </tr>
+    <tr>
       <th>TCSB</th>
       <td>28/05/2019</td>
       <td>01/10/2018</td>
       <td>13/05/2019</td>
-    </tr>
-    <tr>
-      <th>TLWB</th>
-      <td>03/06/2019</td>
-      <td>01/10/2018</td>
-      <td>19/05/2019</td>
-    </tr>
-    <tr>
-      <th>LASB</th>
-      <td>06/06/2019</td>
-      <td>01/10/2018</td>
-      <td>22/05/2019</td>
     </tr>
     <tr>
       <th>THEB</th>
@@ -543,46 +564,22 @@ _____
       <td>19/05/2019</td>
     </tr>
     <tr>
-      <th>GESB</th>
-      <td>05/06/2019</td>
+      <th>THEO</th>
+      <td>06/06/2019</td>
       <td>01/10/2018</td>
-      <td>21/05/2019</td>
+      <td>22/05/2019</td>
+    </tr>
+    <tr>
+      <th>TLWB</th>
+      <td>03/06/2019</td>
+      <td>01/10/2018</td>
+      <td>19/05/2019</td>
     </tr>
     <tr>
       <th>WBGB</th>
       <td>06/06/2019</td>
       <td>01/10/2018</td>
       <td>22/05/2019</td>
-    </tr>
-    <tr>
-      <th>LITB</th>
-      <td>04/06/2019</td>
-      <td>01/10/2018</td>
-      <td>20/05/2019</td>
-    </tr>
-    <tr>
-      <th>SPAB</th>
-      <td>29/05/2019</td>
-      <td>01/10/2018</td>
-      <td>14/05/2019</td>
-    </tr>
-    <tr>
-      <th>CIWB</th>
-      <td>27/05/2019</td>
-      <td>01/10/2018</td>
-      <td>12/05/2019</td>
-    </tr>
-    <tr>
-      <th>ISAB</th>
-      <td>06/06/2019</td>
-      <td>01/10/2018</td>
-      <td>22/05/2019</td>
-    </tr>
-    <tr>
-      <th>HISB</th>
-      <td>29/05/2019</td>
-      <td>01/10/2018</td>
-      <td>14/05/2019</td>
     </tr>
   </tbody>
 </table>
@@ -605,70 +602,64 @@ _____
   </thead>
   <tbody>
     <tr>
+      <th>CIWB</th>
+      <td>19/08/2019</td>
+      <td>13/05/2019</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
       <th>DUIB</th>
       <td>19/08/2019</td>
-      <td>23/05/2019</td>
+      <td>13/05/2019</td>
       <td>NaT</td>
     </tr>
     <tr>
       <th>ENGB</th>
       <td>23/08/2019</td>
-      <td>23/05/2019</td>
+      <td>15/05/2019</td>
       <td>23/08/2019</td>
     </tr>
     <tr>
       <th>FRAB</th>
       <td>20/08/2019</td>
-      <td>23/05/2019</td>
+      <td>14/05/2019</td>
       <td>20/08/2019</td>
     </tr>
     <tr>
-      <th>THEO</th>
+      <th>GESB</th>
+      <td>20/08/2019</td>
+      <td>22/05/2019</td>
+      <td>20/08/2019</td>
+    </tr>
+    <tr>
+      <th>HISB</th>
+      <td>20/08/2019</td>
+      <td>15/05/2019</td>
+      <td>20/08/2019</td>
+    </tr>
+    <tr>
+      <th>ISAB</th>
       <td>22/08/2019</td>
-      <td>28/03/2019</td>
+      <td>23/01/2019</td>
       <td>22/08/2019</td>
     </tr>
     <tr>
       <th>ITAB</th>
       <td>23/08/2019</td>
-      <td>06/08/2019</td>
+      <td>14/05/2019</td>
       <td>23/08/2019</td>
     </tr>
     <tr>
       <th>KELB</th>
       <td>23/08/2019</td>
-      <td>11/06/2019</td>
+      <td>14/05/2019</td>
       <td>23/08/2019</td>
     </tr>
     <tr>
       <th>KUNB</th>
       <td>21/08/2019</td>
-      <td>13/06/2019</td>
+      <td>21/05/2019</td>
       <td>21/08/2019</td>
-    </tr>
-    <tr>
-      <th>MUZB</th>
-      <td>22/08/2019</td>
-      <td>06/08/2019</td>
-      <td>22/08/2019</td>
-    </tr>
-    <tr>
-      <th>NEDB</th>
-      <td>21/08/2019</td>
-      <td>28/05/2019</td>
-      <td>21/08/2019</td>
-    </tr>
-    <tr>
-      <th>TCSB</th>
-      <td>20/08/2019</td>
-      <td>23/05/2019</td>
-      <td>20/08/2019</td>
-    </tr>
-    <tr>
-      <th>TLWB</th>
-      <td>19/08/2019</td>
-      <td>28/03/2019</td>
-      <td>NaT</td>
     </tr>
     <tr>
       <th>LASB</th>
@@ -677,58 +668,63 @@ _____
       <td>19/08/2019</td>
     </tr>
     <tr>
-      <th>THEB</th>
-      <td>19/08/2019</td>
-      <td>23/05/2019</td>
-      <td>NaT</td>
-    </tr>
-    <tr>
-      <th>GESB</th>
-      <td>20/08/2019</td>
-      <td>23/05/2019</td>
-      <td>20/08/2019</td>
-    </tr>
-    <tr>
-      <th>WBGB</th>
-      <td>23/08/2019</td>
-      <td>29/03/2019</td>
-      <td>23/08/2019</td>
-    </tr>
-    <tr>
       <th>LITB</th>
       <td>19/08/2019</td>
-      <td>31/05/2019</td>
+      <td>21/05/2019</td>
       <td>NaT</td>
+    </tr>
+    <tr>
+      <th>MUZB</th>
+      <td>22/08/2019</td>
+      <td>13/05/2019</td>
+      <td>22/08/2019</td>
+    </tr>
+    <tr>
+      <th>NEDB</th>
+      <td>21/08/2019</td>
+      <td>15/05/2019</td>
+      <td>21/08/2019</td>
     </tr>
     <tr>
       <th>SPAB</th>
       <td>22/08/2019</td>
-      <td>21/05/2019</td>
+      <td>15/05/2019</td>
       <td>22/08/2019</td>
     </tr>
     <tr>
-      <th>CIWB</th>
+      <th>TCSB</th>
+      <td>20/08/2019</td>
+      <td>14/05/2019</td>
+      <td>20/08/2019</td>
+    </tr>
+    <tr>
+      <th>THEB</th>
       <td>19/08/2019</td>
-      <td>23/05/2019</td>
+      <td>20/05/2019</td>
       <td>NaT</td>
     </tr>
     <tr>
-      <th>ISAB</th>
+      <th>THEO</th>
       <td>22/08/2019</td>
-      <td>29/01/2019</td>
+      <td>23/05/2019</td>
       <td>22/08/2019</td>
     </tr>
     <tr>
-      <th>HISB</th>
-      <td>20/08/2019</td>
+      <th>TLWB</th>
+      <td>19/08/2019</td>
+      <td>20/05/2019</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>WBGB</th>
+      <td>23/08/2019</td>
       <td>23/05/2019</td>
-      <td>20/08/2019</td>
+      <td>23/08/2019</td>
     </tr>
   </tbody>
 </table>
 
 ### REBO
-<h3>februari</h3>
 <h3>april</h3>
 <table border="1" class="dataframe matchingsdata">
   <thead>
@@ -838,7 +834,6 @@ _____
 </table>
 
 ### SW
-<h3>februari</h3>
 <h3>april</h3>
 <table border="1" class="dataframe matchingsdata">
   <thead>
@@ -856,6 +851,12 @@ _____
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <th>ASWB</th>
+      <td>18/04/2019</td>
+      <td>01/10/2018</td>
+      <td>03/04/2019</td>
+    </tr>
     <tr>
       <th>CULB</th>
       <td>09/04/2019</td>
@@ -880,12 +881,6 @@ _____
       <td>01/10/2018</td>
       <td>27/03/2019</td>
     </tr>
-    <tr>
-      <th>ASWB</th>
-      <td>18/04/2019</td>
-      <td>01/10/2018</td>
-      <td>03/04/2019</td>
-    </tr>
   </tbody>
 </table>
 
@@ -906,6 +901,12 @@ _____
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <th>ASWB</th>
+      <td>11/06/2019</td>
+      <td>01/10/2018</td>
+      <td>27/05/2019</td>
+    </tr>
     <tr>
       <th>CULB</th>
       <td>04/06/2019</td>
@@ -930,12 +931,6 @@ _____
       <td>01/10/2018</td>
       <td>22/05/2019</td>
     </tr>
-    <tr>
-      <th>ASWB</th>
-      <td>11/06/2019</td>
-      <td>01/10/2018</td>
-      <td>27/05/2019</td>
-    </tr>
   </tbody>
 </table>
 
@@ -956,6 +951,12 @@ _____
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <th>ASWB</th>
+      <td>20/08/2019</td>
+      <td>28/05/2019</td>
+      <td>20/08/2019</td>
+    </tr>
     <tr>
       <th>CULB</th>
       <td>20/08/2019</td>
@@ -979,12 +980,6 @@ _____
       <td>21/08/2019</td>
       <td>23/05/2019</td>
       <td>21/08/2019</td>
-    </tr>
-    <tr>
-      <th>ASWB</th>
-      <td>20/08/2019</td>
-      <td>28/05/2019</td>
-      <td>20/08/2019</td>
     </tr>
   </tbody>
 </table>
