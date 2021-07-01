@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
 :root {
-    --color-header: rgb(176, 196, 222, 0.8); /* LightSteelBlue */
-    --color-tab: LightSteelBlue;
+    --color-header: rgb(151, 220, 208, 0.8); /* LightSteelBlue */
+    --color-tab: rgb(151, 220, 208);
     --color-hover: #F0F0F0;
     --color-hover-text: black;
     --color-buttons: #E0E0E0;
