@@ -5,11 +5,8 @@
     display: grid;
     border: 1px solid var(--color-lines);
 }
-.flextable div {
-    padding: .25em;
-}
-.flextable * + * {
-    margin: 0;
+.flextable * {
+    margin-top: 0;
 }
 .flextable__header, .flextable__index {
     display: block;
