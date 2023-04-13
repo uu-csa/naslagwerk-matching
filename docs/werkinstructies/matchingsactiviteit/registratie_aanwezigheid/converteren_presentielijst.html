@@ -125,7 +125,10 @@
 <div>
 <p>Hier staat hoe je de presentielijst (zoals deze in de instructie <a class="crossref" href="../../../werkinstructies/matchingsactiviteit/registratie_aanwezigheid/maken_presentielijst.html">Maken presentielijst</a> is aangemaakt) na de matchingsactiviteit klaarmaakt zodat je deze in kunt lezen.</p>
 </div>
-<blockquote>
+
+<hr />
+<p><strong><a href="https://lcvriend.pythonanywhere.com/matching.html">Link naar conversie pagina</a></strong></p>
+<hr />
 <p>De presentielijst bevat de volgende kolommen:</p>
 <ul>
 <li>Student nummer</li>
@@ -133,37 +136,33 @@
 <li>Proces</li>
 <li>Croho</li>
 <li>Opleiding</li>
-<li>NA_ACTIVITEIT-SKC_DATUM: Na matchingsactiviteit - Datum matchingsactiviteit</li>
-<li>NA_ACTIVITEIT-SKC_RESULTAAT: Na matchingsactiviteit - Resultaat matchingsactiviteit</li>
+<li>Na matchingsactiviteit - Datum matchingsactiviteit</li>
+<li>Na matchingsactiviteit - Resultaat matchingsactiviteit</li>
 </ul>
+<blockquote>
+<p>LET OP! De laatste twee kolomnamen moeten gewijzigd worden anders herkent OSIRIS ze niet:</p>
+<ul>
+<li>Na matchingsactiviteit - Datum matchingsactiviteit &mdash;&gt; NA_ACTIVITEIT_SKC_DATUM</li>
+<li>Na matchingsactiviteit - Resultaat matchingsactiviteit &mdash;&gt; NA_ACTIVITEIT_SKC_RESULTAAT</li>
+</ul>
+</blockquote>
 <p>De laatste twee kolommen zijn nog leeg. In de eerste kolom vul je voor alle studenten de datum waarop de matchingsactiviteit heeft plaatsgevonden in. De tweede kolom bevat de aanwezigheid/afwezigheid, en deze moet als volgt geregistreerd worden:</p>
 <ul>
-<li>Aanwezig = <code>P</code></li>
-<li>Afwezig = <code>ND</code></li>
+<li>Aanwezig = P</li>
+<li>Afwezig = ND</li>
 </ul>
-<p>Sla het bestand op nadat je de presentielijst volledig en correct hebt ingevuld. OSIRIS kan de eigen Dashboard export helaas niet lezen. Daarom is nu nog een conversie nodig. Ga naar <a href="https://colab.research.google.com/drive/1m_6FfYpiXgHtaqD-i13sCkqfIG-MSBBu#forceEdit=true&amp;offline=true&amp;sandboxMode=true">deze pagina</a> en log in (via de blauwe <code>Sign in</code> knop rechtsboven) met de volgende gegevens:</p>
-<ul>
-<li>gebruikersnaam: matching.csa</li>
-<li>wachtwoord: op te vragen bij <a href="mailto://matching.csa@uu.nl">matching.csa@uu.nl</a></li>
-</ul>
-<p>Vervolgens kom je op de pagina met het script:</p>
-</blockquote>
-<p><img src="../../images/colab_script.png" alt="Screenshot van Google Colab script"></p>
+<p>Sla het bestand op nadat je de presentielijst volledig en correct hebt ingevuld. OSIRIS kan de eigen Dashboard export helaas niet lezen. Daarom is nu nog een conversie nodig. Ga naar <strong><a href="https://lcvriend.pythonanywhere.com/matching.html">deze pagina</a></strong>.</p>
+<ol>
+<li>Klik onder <code>File Upload</code> op <code>Browse...</code> en selecteer het excel-bestand dat je wilt converteren.</li>
+<li>Klik vervolgens op <code>Submit</code></li>
+</ol>
+<p>Het bestand wordt vervolgens automatisch geconverteerd en gedownload.</p>
 <blockquote>
-<p>Klik op het <strong>[<code>Play</code>]</strong>-icoon linksboven het blok (naast de tekst <strong>Instructies</strong>) om het script te starten.<br />
-Vervolgens verschijnt (na enige momenten) onderin de volgende balk:</p>
+<p>bestandsnaam = &lsquo;geconverteerd_export_dashboard_[datum_van_vandaag].xlsx&rsquo;</p>
 </blockquote>
-<p><img src="../../images/colab_upload.png" alt="Screenshot van Google Colab script"></p>
-<blockquote>
-<p>Klik op <code>Choose Files</code>, selecteer het te converteren excel bestand en klik op <code>Open</code>.<br />
-Vervolgens wordt het bestand automatisch geconverteerd en gedownload:</p>
-<ul>
-<li>bestandsnaam = &lsquo;geconverteerd_export_dashboard_[datum_van_vandaag].xlsx&rsquo;</li>
-</ul>
-<p>De gegevens die je uploadt, worden verder niet opgeslagen op de server van Google.<br />
-Het gedownloade bestand kun je gebruiken bij <a class="crossref" href="../../../werkinstructies/matchingsactiviteit/registratie_aanwezigheid/inlezen_presentielijst.html">Inlezen presentielijst</a>.</p>
-</blockquote>            <div class="timestamps">
-                Aangemaakt: 17-05-2022 | laatst gewijzigd: 17-05-2022
+<p>De gegevens worden via een encrypted verbinding naar en van de server verstuurd. De gegevens die je uploadt, worden alleen verwerkt en teruggestuurd. Geen van de gegevens worden opgeslagen op de server.</p>
+<p>Het gedownloade bestand kun je gebruiken bij <a class="crossref" href="../../../werkinstructies/matchingsactiviteit/registratie_aanwezigheid/inlezen_presentielijst.html">Inlezen presentielijst</a>.</p>            <div class="timestamps">
+                Aangemaakt: 17-05-2022 | laatst gewijzigd: 13-04-2023
             </div>
         </article>
 <footer>
