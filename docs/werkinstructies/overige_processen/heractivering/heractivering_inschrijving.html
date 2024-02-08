@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="../../../css/card.css">
 
 <link rel="stylesheet" href="../../../css/main.css">
-    <title>Heractivering inschrijving | Naslagwerk matching 2023/2024</title>
+    <title>Heractivering inschrijving | Naslagwerk matching 2024/2025</title>
 </head>
 <body>
     <header>
         <nav>
-<img src="../../../images/logo.svg" alt="logo">            <div class="header__title">Naslagwerk matching 2023/2024</div>
+<img src="../../../images/logo.svg" alt="logo">            <div class="header__title">Naslagwerk matching 2024/2025</div>
             <input type="checkbox" id="nav__toggle" class="nav__toggle">
             <label for="nav__toggle" class="nav__toggle__button">☰</label>
             <div class="nav__menu">
@@ -131,7 +131,7 @@
     <div class="card__content">        <div class="card__content__category">Wie</div>
         <div class="card__content__value">Centrale Studentenadministratie</div>
         <div class="card__content__category">Wanneer</div>
-        <div class="card__content__value">vanaf 1 juni dagelijks</div>
+        <div class="card__content__value">vanaf 1 oktober wekelijk, vanaf 1 juni dagelijks</div>
         <div class="card__content__category">Hoe</div>
         <div class="card__content__value">individueel</div>
         <div class="card__content__category">Betreft</div>
@@ -147,14 +147,18 @@
 <li>In scherm 2.3.02 start bij deze student nieuw proces []</li>
 </ol>
 </li>
-<li>Nog niet ingediend matchingsformulier, wel afgewezen</li>
-<li>Wel ingediend matchingsformulier, nog niet uitgenodigd<br />
+<li>Wel ingediend matchingsformulier, nog niet uitgenodigd voor matchingsactiviteit in de toekomst<br />
   | Pas de volgende velden aan:<ol>
 <li>Zet de processtatus op &lsquo;in behandeling&rsquo;</li>
-<li>Wijzig de matchingsdatum bij de student naar de eerstvolgende mogelijkheid (houd rekening met of de uitnodiging al geweest is)</li>
 </ol>
 </li>
-<li>Afgewezen wegens geen deelname aan de matchingsactiviteit</li>
+<li>Wel ingediend matchingsformulier, nog niet uitgenodigd, datum matchingsactiviteit verstreken<br />
+  | Pas de volgende velden aan:<ol>
+<li>Zet de processtatus op &lsquo;in behandeling&rsquo;</li>
+<li>Wijzig de matchingsdatum bij de student naar de eerstvolgende mogelijkheid (sla op)</li>
+<li>Verstuur bericht [M_REANIMEER_DAT] </li>
+</ol>
+</li>
 <li>Afgewezen wegens geen deelname, maar nog geen afwijzing ontvangen<br />
   | Pas de volgende velden aan:<ol>
 <li>Zet de processtatus op &lsquo;in behandeling&rsquo;</li>
@@ -167,9 +171,27 @@
 </li>
 </ol>
 </li>
+<li>Afgewezen, geen bezwaar ingediend<br />
+  | Voer de volgende acties uit:<ol>
+<li>Verstuur bericht [M_REANIMEER_NOK]</li>
+<li>Trek inschrijfregel in.</li>
+</ol>
+</li>
+<li>Afgewezen, bezwaar in behandeling<br />
+  | Voer de volgende acties uit:<ol>
+<li>Verstuur bericht [M_REANIMEER_B]</li>
+<li>Trek inschrijfregel in.</li>
+</ol>
+</li>
+<li>Afgewezen, negatief besluit bezwaar <br />
+  | Voer de volgende acties uit:<ol>
+<li>Verstuur bericht [M_REANIMEER_N]</li>
+<li>Trek inschrijfregel in.</li>
+</ol>
+</li>
 <li>Voldaan aan de matchingsvoorwaarden, hier hoeft niets meer mee gedaan te worden.</li>
 </ul>            <div class="timestamps">
-                Aangemaakt: 17-05-2022 | laatst gewijzigd: 01-03-2023
+                Aangemaakt: 17-05-2022 | laatst gewijzigd: 08-02-2024
             </div>
         </article>
 <footer>
@@ -181,8 +203,8 @@
         </div>
         <div class="footer__container__info">
             <h3>Informatie</h3>
-            <div><a href="https://www.uu.nl/bachelors/algemene-informatie/informatie-voor-nederlandse-studenten/inschrijven/matching/veelgestelde-vragen-over-matching">FAQ Matching</a></div>
-            <div><a href="https://students.uu.nl/media/16093">Reglement inschrijving en collegegeld</a></div>
+            <div><a href="https://www.uu.nl/bachelors/algemene-informatie/hoe-werkt-inschrijven/wat-is-matching">Informatie Matching</a></div>
+            <div><a href="https://students.uu.nl/sites/default/files/Reglement%20inschrijving%20en%20collegegeld.pdf">Reglement inschrijving en collegegeld</a></div>
         </div>
         <div class="footer__container__version">
             <h3>Versie</h3>
