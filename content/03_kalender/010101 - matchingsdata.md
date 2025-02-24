@@ -1,0 +1,1389 @@
+3Ha14
+|CONTAINER:page__synopsis
+Hieronder vind je een overzicht van de matchingsdata per periode. Daaronder zijn de openstellingstermijnen van de matchingsdata per opleiding opgenomen.
+_____
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.16.3"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-f9637567afdee6866d28c2876d6d885d"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "faculteit", "type": "nominal"}, "column": {"field": "ronde", "sort": ["FEBRUARI", "APRIL", "MEI", "JUNI", "AUGUSTUS"], "title": null, "type": "nominal"}, "detail": {"field": "opleiding", "type": "nominal"}, "tooltip": [{"field": "faculteit", "type": "nominal"}, {"field": "opleiding", "type": "nominal"}, {"field": "datum", "type": "nominal"}], "x": {"field": "datum", "title": null, "type": "nominal"}, "y": {"field": "aantal", "type": "quantitative"}}, "resolve": {"scale": {"x": "independent"}}, "transform": [{"calculate": "1", "as": "aantal"}], "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json", "datasets": {"data-f9637567afdee6866d28c2876d6d885d": [{"faculteit": "BETA", "ronde": "APRIL", "opleiding": "BIOL", "datum": "april"}, {"faculteit": "BETA", "ronde": "APRIL", "opleiding": "INCA", "datum": "april"}, {"faculteit": "BETA", "ronde": "APRIL", "opleiding": "INKU", "datum": "16 april"}, {"faculteit": "BETA", "ronde": "APRIL", "opleiding": "MBLS", "datum": "april"}, {"faculteit": "BETA", "ronde": "APRIL", "opleiding": "NAST", "datum": "april"}, {"faculteit": "BETA", "ronde": "APRIL", "opleiding": "SCHK", "datum": "april"}, {"faculteit": "BETA", "ronde": "APRIL", "opleiding": "WISK", "datum": "april"}, {"faculteit": "BETA", "ronde": "AUGUSTUS", "opleiding": "BIOL", "datum": "augustus"}, {"faculteit": "BETA", "ronde": "AUGUSTUS", "opleiding": "INCA", "datum": "augustus"}, {"faculteit": "BETA", "ronde": "AUGUSTUS", "opleiding": "INKU", "datum": "augustus"}, {"faculteit": "BETA", "ronde": "AUGUSTUS", "opleiding": "MBLS", "datum": "augustus"}, {"faculteit": "BETA", "ronde": "AUGUSTUS", "opleiding": "NAST", "datum": "augustus"}, {"faculteit": "BETA", "ronde": "AUGUSTUS", "opleiding": "SCHK", "datum": "augustus"}, {"faculteit": "BETA", "ronde": "AUGUSTUS", "opleiding": "WISK", "datum": "augustus"}, {"faculteit": "BETA", "ronde": "JUNI", "opleiding": "BIOL", "datum": "juni"}, {"faculteit": "BETA", "ronde": "JUNI", "opleiding": "INCA", "datum": "juni"}, {"faculteit": "BETA", "ronde": "JUNI", "opleiding": "INKU", "datum": "06 juni"}, {"faculteit": "BETA", "ronde": "JUNI", "opleiding": "MBLS", "datum": "juni"}, {"faculteit": "BETA", "ronde": "JUNI", "opleiding": "NAST", "datum": "juni"}, {"faculteit": "BETA", "ronde": "JUNI", "opleiding": "SCHK", "datum": "juni"}, {"faculteit": "BETA", "ronde": "JUNI", "opleiding": "WISK", "datum": "juni"}, {"faculteit": "GEO", "ronde": "APRIL", "opleiding": "AARD", "datum": "23 april"}, {"faculteit": "GEO", "ronde": "APRIL", "opleiding": "GSSB", "datum": "17 april"}, {"faculteit": "GEO", "ronde": "APRIL", "opleiding": "INMB", "datum": "09 april"}, {"faculteit": "GEO", "ronde": "APRIL", "opleiding": "SGPB", "datum": "23 april"}, {"faculteit": "GEO", "ronde": "AUGUSTUS", "opleiding": "AARD", "datum": "21 augustus"}, {"faculteit": "GEO", "ronde": "AUGUSTUS", "opleiding": "GSSB", "datum": "21 augustus"}, {"faculteit": "GEO", "ronde": "AUGUSTUS", "opleiding": "INMB", "datum": "22 augustus"}, {"faculteit": "GEO", "ronde": "AUGUSTUS", "opleiding": "SGPB", "datum": "22 augustus"}, {"faculteit": "GEO", "ronde": "FEBRUARI", "opleiding": "AARD", "datum": "27 februari"}, {"faculteit": "GEO", "ronde": "JUNI", "opleiding": "AARD", "datum": "25 juni"}, {"faculteit": "GEO", "ronde": "JUNI", "opleiding": "GSSB", "datum": "26 juni"}, {"faculteit": "GEO", "ronde": "JUNI", "opleiding": "INMB", "datum": "11 juni"}, {"faculteit": "GEO", "ronde": "JUNI", "opleiding": "SGPB", "datum": "11 juni"}, {"faculteit": "GEO", "ronde": "JUNI", "opleiding": "SGPB", "datum": "25 juni"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "CIWB", "datum": "09 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "CKIB", "datum": "10 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "DUIB", "datum": "11 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "ENGB", "datum": "19 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "FRAB", "datum": "04 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "GESB", "datum": "03 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "HISB", "datum": "04 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "ITAB", "datum": "02 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "KUNB", "datum": "11 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "LASB", "datum": "09 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "LITB", "datum": "10 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "MUZB", "datum": "11 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "NEDB", "datum": "08 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "SPAB", "datum": "09 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "TCSB", "datum": "10 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "THEB", "datum": "04 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "TLWB", "datum": "02 april"}, {"faculteit": "GW", "ronde": "APRIL", "opleiding": "WBGB", "datum": "09 april"}, {"faculteit": "GW", "ronde": "AUGUSTUS", "opleiding": "CKIB", "datum": "22 augustus"}, {"faculteit": "GW", "ronde": "AUGUSTUS", "opleiding": "ENGB", "datum": "23 augustus"}, {"faculteit": "GW", "ronde": "AUGUSTUS", "opleiding": "FRAB", "datum": "20 augustus"}, {"faculteit": "GW", "ronde": "AUGUSTUS", "opleiding": "GESB", "datum": "20 augustus"}, {"faculteit": "GW", "ronde": "AUGUSTUS", "opleiding": "HISB", "datum": "20 augustus"}, {"faculteit": "GW", "ronde": "AUGUSTUS", "opleiding": "ISAB", "datum": "22 augustus"}, {"faculteit": "GW", "ronde": "AUGUSTUS", "opleiding": "ITAB", "datum": "23 augustus"}, {"faculteit": "GW", "ronde": "AUGUSTUS", "opleiding": "KUNB", "datum": "21 augustus"}, {"faculteit": "GW", "ronde": "AUGUSTUS", "opleiding": "LASB", "datum": "19 augustus"}, {"faculteit": "GW", "ronde": "AUGUSTUS", "opleiding": "MUZB", "datum": "22 augustus"}, {"faculteit": "GW", "ronde": "AUGUSTUS", "opleiding": "NEDB", "datum": "21 augustus"}, {"faculteit": "GW", "ronde": "AUGUSTUS", "opleiding": "TCSB", "datum": "20 augustus"}, {"faculteit": "GW", "ronde": "AUGUSTUS", "opleiding": "THEO", "datum": "22 augustus"}, {"faculteit": "GW", "ronde": "AUGUSTUS", "opleiding": "WBGB", "datum": "23 augustus"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "CIWB", "datum": "24 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "CKIB", "datum": "21 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "DUIB", "datum": "30 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "ENGB", "datum": "14 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "FRAB", "datum": "31 mei"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "GESB", "datum": "11 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "HISB", "datum": "13 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "ISAB", "datum": "07 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "ITAB", "datum": "06 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "KELB", "datum": "10 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "KUNB", "datum": "14 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "LASB", "datum": "10 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "LITB", "datum": "24 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "MUZB", "datum": "21 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "NEDB", "datum": "07 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "SPAB", "datum": "05 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "TCSB", "datum": "16 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "THEB", "datum": "21 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "THEO", "datum": "07 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "TLWB", "datum": "24 juni"}, {"faculteit": "GW", "ronde": "JUNI", "opleiding": "WBGB", "datum": "21 juni"}, {"faculteit": "REBO", "ronde": "APRIL", "opleiding": "ECBB", "datum": "18 april"}, {"faculteit": "REBO", "ronde": "APRIL", "opleiding": "RGLB", "datum": "april"}, {"faculteit": "REBO", "ronde": "AUGUSTUS", "opleiding": "ECBB", "datum": "19 augustus"}, {"faculteit": "REBO", "ronde": "AUGUSTUS", "opleiding": "RGLB", "datum": "augustus"}, {"faculteit": "REBO", "ronde": "JUNI", "opleiding": "ECBB", "datum": "06 juni"}, {"faculteit": "REBO", "ronde": "JUNI", "opleiding": "ECBB", "datum": "27 juni"}, {"faculteit": "REBO", "ronde": "JUNI", "opleiding": "RGLB", "datum": "juni"}, {"faculteit": "REBO", "ronde": "MEI", "opleiding": "RGLB", "datum": "mei"}, {"faculteit": "SW", "ronde": "APRIL", "opleiding": "ASWB", "datum": "16 april"}, {"faculteit": "SW", "ronde": "APRIL", "opleiding": "CULB", "datum": "09 april"}, {"faculteit": "SW", "ronde": "APRIL", "opleiding": "OWKB", "datum": "09 april"}, {"faculteit": "SW", "ronde": "APRIL", "opleiding": "OWKB-ALPO", "datum": "12 april"}, {"faculteit": "SW", "ronde": "APRIL", "opleiding": "PEDB", "datum": "11 april"}, {"faculteit": "SW", "ronde": "APRIL", "opleiding": "SOCB", "datum": "10 april"}, {"faculteit": "SW", "ronde": "AUGUSTUS", "opleiding": "ASWB", "datum": "22 augustus"}, {"faculteit": "SW", "ronde": "AUGUSTUS", "opleiding": "CULB", "datum": "20 augustus"}, {"faculteit": "SW", "ronde": "AUGUSTUS", "opleiding": "OWKB", "datum": "20 augustus"}, {"faculteit": "SW", "ronde": "AUGUSTUS", "opleiding": "OWKB-ALPO", "datum": "21 augustus"}, {"faculteit": "SW", "ronde": "AUGUSTUS", "opleiding": "PEDB", "datum": "22 augustus"}, {"faculteit": "SW", "ronde": "AUGUSTUS", "opleiding": "SOCB", "datum": "21 augustus"}, {"faculteit": "SW", "ronde": "JUNI", "opleiding": "ASWB", "datum": "11 juni"}, {"faculteit": "SW", "ronde": "JUNI", "opleiding": "CULB", "datum": "04 juni"}, {"faculteit": "SW", "ronde": "JUNI", "opleiding": "OWKB", "datum": "04 juni"}, {"faculteit": "SW", "ronde": "JUNI", "opleiding": "OWKB-ALPO", "datum": "11 juni"}, {"faculteit": "SW", "ronde": "JUNI", "opleiding": "PEDB", "datum": "13 juni"}, {"faculteit": "SW", "ronde": "JUNI", "opleiding": "SOCB", "datum": "05 juni"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+  </script>
+_____
+| collapsible
+### BETA:hide
+#### APRIL
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>BIOL</th>
+      <td>APRIL</td>
+      <td>BETA</td>
+      <td>april</td>
+      <td>NaT</td>
+      <td>2024-03-31</td>
+    </tr>
+    <tr>
+      <th>INCA</th>
+      <td>APRIL</td>
+      <td>BETA</td>
+      <td>april</td>
+      <td>NaT</td>
+      <td>2024-03-31</td>
+    </tr>
+    <tr>
+      <th>INKU</th>
+      <td>APRIL</td>
+      <td>BETA</td>
+      <td>16 april</td>
+      <td>NaT</td>
+      <td>2024-04-01</td>
+    </tr>
+    <tr>
+      <th>MBLS</th>
+      <td>APRIL</td>
+      <td>BETA</td>
+      <td>april</td>
+      <td>NaT</td>
+      <td>2024-03-31</td>
+    </tr>
+    <tr>
+      <th>NAST</th>
+      <td>APRIL</td>
+      <td>BETA</td>
+      <td>april</td>
+      <td>NaT</td>
+      <td>2024-03-31</td>
+    </tr>
+    <tr>
+      <th>SCHK</th>
+      <td>APRIL</td>
+      <td>BETA</td>
+      <td>april</td>
+      <td>NaT</td>
+      <td>2024-03-31</td>
+    </tr>
+    <tr>
+      <th>WISK</th>
+      <td>APRIL</td>
+      <td>BETA</td>
+      <td>april</td>
+      <td>NaT</td>
+      <td>2024-03-31</td>
+    </tr>
+  </tbody>
+</table>#### JUNI
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>BIOL</th>
+      <td>JUNI</td>
+      <td>BETA</td>
+      <td>juni</td>
+      <td>NaT</td>
+      <td>2024-05-31</td>
+    </tr>
+    <tr>
+      <th>INCA</th>
+      <td>JUNI</td>
+      <td>BETA</td>
+      <td>juni</td>
+      <td>NaT</td>
+      <td>2024-05-31</td>
+    </tr>
+    <tr>
+      <th>INKU</th>
+      <td>JUNI</td>
+      <td>BETA</td>
+      <td>06 juni</td>
+      <td>NaT</td>
+      <td>2024-05-22</td>
+    </tr>
+    <tr>
+      <th>MBLS</th>
+      <td>JUNI</td>
+      <td>BETA</td>
+      <td>juni</td>
+      <td>NaT</td>
+      <td>2024-05-31</td>
+    </tr>
+    <tr>
+      <th>NAST</th>
+      <td>JUNI</td>
+      <td>BETA</td>
+      <td>juni</td>
+      <td>NaT</td>
+      <td>2024-05-31</td>
+    </tr>
+    <tr>
+      <th>SCHK</th>
+      <td>JUNI</td>
+      <td>BETA</td>
+      <td>juni</td>
+      <td>NaT</td>
+      <td>2024-05-31</td>
+    </tr>
+    <tr>
+      <th>WISK</th>
+      <td>JUNI</td>
+      <td>BETA</td>
+      <td>juni</td>
+      <td>NaT</td>
+      <td>2024-05-31</td>
+    </tr>
+  </tbody>
+</table>#### AUGUSTUS
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>BIOL</th>
+      <td>AUGUSTUS</td>
+      <td>BETA</td>
+      <td>augustus</td>
+      <td>2024-06-01</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>INCA</th>
+      <td>AUGUSTUS</td>
+      <td>BETA</td>
+      <td>augustus</td>
+      <td>2024-06-01</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>INKU</th>
+      <td>AUGUSTUS</td>
+      <td>BETA</td>
+      <td>augustus</td>
+      <td>2024-05-23</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>MBLS</th>
+      <td>AUGUSTUS</td>
+      <td>BETA</td>
+      <td>augustus</td>
+      <td>2024-06-01</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>NAST</th>
+      <td>AUGUSTUS</td>
+      <td>BETA</td>
+      <td>augustus</td>
+      <td>2024-06-01</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>SCHK</th>
+      <td>AUGUSTUS</td>
+      <td>BETA</td>
+      <td>augustus</td>
+      <td>2024-06-01</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>WISK</th>
+      <td>AUGUSTUS</td>
+      <td>BETA</td>
+      <td>augustus</td>
+      <td>2024-06-01</td>
+      <td>NaT</td>
+    </tr>
+  </tbody>
+</table>
+### GEO:hide
+#### FEBRUARI
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>AARD</th>
+      <td>FEBRUARI</td>
+      <td>GEO</td>
+      <td>27 februari</td>
+      <td>NaT</td>
+      <td>2024-02-12</td>
+    </tr>
+  </tbody>
+</table>#### APRIL
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>AARD</th>
+      <td>APRIL</td>
+      <td>GEO</td>
+      <td>23 april</td>
+      <td>NaT</td>
+      <td>2024-04-08</td>
+    </tr>
+    <tr>
+      <th>GSSB</th>
+      <td>APRIL</td>
+      <td>GEO</td>
+      <td>17 april</td>
+      <td>NaT</td>
+      <td>2024-04-02</td>
+    </tr>
+    <tr>
+      <th>INMB</th>
+      <td>APRIL</td>
+      <td>GEO</td>
+      <td>09 april</td>
+      <td>NaT</td>
+      <td>2024-03-25</td>
+    </tr>
+    <tr>
+      <th>SGPB</th>
+      <td>APRIL</td>
+      <td>GEO</td>
+      <td>23 april</td>
+      <td>NaT</td>
+      <td>2024-04-08</td>
+    </tr>
+  </tbody>
+</table>#### JUNI
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>AARD</th>
+      <td>JUNI</td>
+      <td>GEO</td>
+      <td>25 juni</td>
+      <td>NaT</td>
+      <td>2024-06-10</td>
+    </tr>
+    <tr>
+      <th>GSSB</th>
+      <td>JUNI</td>
+      <td>GEO</td>
+      <td>26 juni</td>
+      <td>NaT</td>
+      <td>2024-06-11</td>
+    </tr>
+    <tr>
+      <th>INMB</th>
+      <td>JUNI</td>
+      <td>GEO</td>
+      <td>11 juni</td>
+      <td>NaT</td>
+      <td>2024-05-27</td>
+    </tr>
+    <tr>
+      <th>SGPB</th>
+      <td>JUNI</td>
+      <td>GEO</td>
+      <td>11 juni</td>
+      <td>NaT</td>
+      <td>2024-05-27</td>
+    </tr>
+    <tr>
+      <th>SGPB</th>
+      <td>JUNI</td>
+      <td>GEO</td>
+      <td>25 juni</td>
+      <td>NaT</td>
+      <td>2024-06-10</td>
+    </tr>
+  </tbody>
+</table>#### AUGUSTUS
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>AARD</th>
+      <td>AUGUSTUS</td>
+      <td>GEO</td>
+      <td>21 augustus</td>
+      <td>2024-06-11</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>GSSB</th>
+      <td>AUGUSTUS</td>
+      <td>GEO</td>
+      <td>21 augustus</td>
+      <td>2024-06-12</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>INMB</th>
+      <td>AUGUSTUS</td>
+      <td>GEO</td>
+      <td>22 augustus</td>
+      <td>2024-05-28</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>SGPB</th>
+      <td>AUGUSTUS</td>
+      <td>GEO</td>
+      <td>22 augustus</td>
+      <td>2024-06-10</td>
+      <td>NaT</td>
+    </tr>
+  </tbody>
+</table>
+### GW:hide
+#### APRIL
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>CIWB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>09 april</td>
+      <td>NaT</td>
+      <td>2024-03-25</td>
+    </tr>
+    <tr>
+      <th>CKIB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>10 april</td>
+      <td>NaT</td>
+      <td>2024-03-26</td>
+    </tr>
+    <tr>
+      <th>DUIB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>11 april</td>
+      <td>NaT</td>
+      <td>2024-03-27</td>
+    </tr>
+    <tr>
+      <th>ENGB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>19 april</td>
+      <td>NaT</td>
+      <td>2024-04-04</td>
+    </tr>
+    <tr>
+      <th>FRAB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>04 april</td>
+      <td>NaT</td>
+      <td>2024-03-20</td>
+    </tr>
+    <tr>
+      <th>GESB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>03 april</td>
+      <td>NaT</td>
+      <td>2024-03-19</td>
+    </tr>
+    <tr>
+      <th>HISB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>04 april</td>
+      <td>NaT</td>
+      <td>2024-03-20</td>
+    </tr>
+    <tr>
+      <th>ITAB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>02 april</td>
+      <td>NaT</td>
+      <td>2024-03-18</td>
+    </tr>
+    <tr>
+      <th>KUNB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>11 april</td>
+      <td>NaT</td>
+      <td>2024-03-27</td>
+    </tr>
+    <tr>
+      <th>LASB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>09 april</td>
+      <td>NaT</td>
+      <td>2024-03-25</td>
+    </tr>
+    <tr>
+      <th>LITB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>10 april</td>
+      <td>NaT</td>
+      <td>2024-03-26</td>
+    </tr>
+    <tr>
+      <th>MUZB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>11 april</td>
+      <td>NaT</td>
+      <td>2024-03-27</td>
+    </tr>
+    <tr>
+      <th>NEDB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>08 april</td>
+      <td>NaT</td>
+      <td>2024-03-24</td>
+    </tr>
+    <tr>
+      <th>SPAB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>09 april</td>
+      <td>NaT</td>
+      <td>2024-03-25</td>
+    </tr>
+    <tr>
+      <th>TCSB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>10 april</td>
+      <td>NaT</td>
+      <td>2024-03-26</td>
+    </tr>
+    <tr>
+      <th>THEB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>04 april</td>
+      <td>NaT</td>
+      <td>2024-03-20</td>
+    </tr>
+    <tr>
+      <th>TLWB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>02 april</td>
+      <td>NaT</td>
+      <td>2024-03-18</td>
+    </tr>
+    <tr>
+      <th>WBGB</th>
+      <td>APRIL</td>
+      <td>GW</td>
+      <td>09 april</td>
+      <td>NaT</td>
+      <td>2024-03-25</td>
+    </tr>
+  </tbody>
+</table>#### JUNI
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>CIWB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>24 juni</td>
+      <td>NaT</td>
+      <td>2024-06-09</td>
+    </tr>
+    <tr>
+      <th>CKIB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>21 juni</td>
+      <td>NaT</td>
+      <td>2024-06-06</td>
+    </tr>
+    <tr>
+      <th>DUIB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>30 juni</td>
+      <td>NaT</td>
+      <td>2024-06-15</td>
+    </tr>
+    <tr>
+      <th>ENGB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>14 juni</td>
+      <td>NaT</td>
+      <td>2024-05-30</td>
+    </tr>
+    <tr>
+      <th>FRAB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>31 mei</td>
+      <td>NaT</td>
+      <td>2024-05-16</td>
+    </tr>
+    <tr>
+      <th>GESB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>11 juni</td>
+      <td>NaT</td>
+      <td>2024-05-27</td>
+    </tr>
+    <tr>
+      <th>HISB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>13 juni</td>
+      <td>NaT</td>
+      <td>2024-05-29</td>
+    </tr>
+    <tr>
+      <th>ISAB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>07 juni</td>
+      <td>NaT</td>
+      <td>2024-05-23</td>
+    </tr>
+    <tr>
+      <th>ITAB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>06 juni</td>
+      <td>NaT</td>
+      <td>2024-05-22</td>
+    </tr>
+    <tr>
+      <th>KELB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>10 juni</td>
+      <td>NaT</td>
+      <td>2024-05-26</td>
+    </tr>
+    <tr>
+      <th>KUNB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>14 juni</td>
+      <td>NaT</td>
+      <td>2024-05-30</td>
+    </tr>
+    <tr>
+      <th>LASB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>10 juni</td>
+      <td>NaT</td>
+      <td>2024-05-26</td>
+    </tr>
+    <tr>
+      <th>LITB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>24 juni</td>
+      <td>NaT</td>
+      <td>2024-06-09</td>
+    </tr>
+    <tr>
+      <th>MUZB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>21 juni</td>
+      <td>NaT</td>
+      <td>2024-06-06</td>
+    </tr>
+    <tr>
+      <th>NEDB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>07 juni</td>
+      <td>NaT</td>
+      <td>2024-05-23</td>
+    </tr>
+    <tr>
+      <th>SPAB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>05 juni</td>
+      <td>NaT</td>
+      <td>2024-05-21</td>
+    </tr>
+    <tr>
+      <th>TCSB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>16 juni</td>
+      <td>NaT</td>
+      <td>2024-05-29</td>
+    </tr>
+    <tr>
+      <th>THEB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>21 juni</td>
+      <td>NaT</td>
+      <td>2024-06-06</td>
+    </tr>
+    <tr>
+      <th>THEO</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>07 juni</td>
+      <td>NaT</td>
+      <td>2024-05-23</td>
+    </tr>
+    <tr>
+      <th>TLWB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>24 juni</td>
+      <td>NaT</td>
+      <td>2024-06-09</td>
+    </tr>
+    <tr>
+      <th>WBGB</th>
+      <td>JUNI</td>
+      <td>GW</td>
+      <td>21 juni</td>
+      <td>NaT</td>
+      <td>2024-06-06</td>
+    </tr>
+  </tbody>
+</table>#### AUGUSTUS
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>CIWB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>&lt;NA&gt;</td>
+      <td>2024-06-10</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>CKIB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>22 augustus</td>
+      <td>2024-06-07</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>DUIB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>&lt;NA&gt;</td>
+      <td>2024-06-16</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>ENGB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>23 augustus</td>
+      <td>2024-05-31</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>FRAB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>20 augustus</td>
+      <td>2024-05-17</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>GESB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>20 augustus</td>
+      <td>2024-05-28</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>HISB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>20 augustus</td>
+      <td>2024-05-30</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>ISAB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>22 augustus</td>
+      <td>2024-05-24</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>ITAB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>23 augustus</td>
+      <td>2024-05-23</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>KELB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>&lt;NA&gt;</td>
+      <td>2024-05-27</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>KUNB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>21 augustus</td>
+      <td>2024-05-31</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>LASB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>19 augustus</td>
+      <td>2024-05-27</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>LITB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>&lt;NA&gt;</td>
+      <td>2024-06-10</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>MUZB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>22 augustus</td>
+      <td>2024-06-07</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>NEDB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>21 augustus</td>
+      <td>2024-05-28</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>SPAB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>&lt;NA&gt;</td>
+      <td>2024-05-22</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>TCSB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>20 augustus</td>
+      <td>2024-05-30</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>THEB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>&lt;NA&gt;</td>
+      <td>2024-06-07</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>THEO</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>22 augustus</td>
+      <td>2024-05-24</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>TLWB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>&lt;NA&gt;</td>
+      <td>2024-06-10</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>WBGB</th>
+      <td>AUGUSTUS</td>
+      <td>GW</td>
+      <td>23 augustus</td>
+      <td>2024-06-07</td>
+      <td>NaT</td>
+    </tr>
+  </tbody>
+</table>
+### REBO:hide
+#### APRIL
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ECBB</th>
+      <td>APRIL</td>
+      <td>REBO</td>
+      <td>18 april</td>
+      <td>NaT</td>
+      <td>2024-04-03</td>
+    </tr>
+    <tr>
+      <th>RGLB</th>
+      <td>APRIL</td>
+      <td>REBO</td>
+      <td>april</td>
+      <td>NaT</td>
+      <td>2024-03-31</td>
+    </tr>
+  </tbody>
+</table>#### MEI
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>RGLB</th>
+      <td>MEI</td>
+      <td>REBO</td>
+      <td>mei</td>
+      <td>NaT</td>
+      <td>2024-04-30</td>
+    </tr>
+  </tbody>
+</table>#### JUNI
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ECBB</th>
+      <td>JUNI</td>
+      <td>REBO</td>
+      <td>&lt;NA&gt;</td>
+      <td>NaT</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>ECBB</th>
+      <td>JUNI</td>
+      <td>REBO</td>
+      <td>06 juni</td>
+      <td>NaT</td>
+      <td>2024-05-22</td>
+    </tr>
+    <tr>
+      <th>ECBB</th>
+      <td>JUNI</td>
+      <td>REBO</td>
+      <td>27 juni</td>
+      <td>NaT</td>
+      <td>2024-06-12</td>
+    </tr>
+    <tr>
+      <th>RGLB</th>
+      <td>JUNI</td>
+      <td>REBO</td>
+      <td>juni</td>
+      <td>NaT</td>
+      <td>2024-05-31</td>
+    </tr>
+  </tbody>
+</table>#### AUGUSTUS
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ECBB</th>
+      <td>AUGUSTUS</td>
+      <td>REBO</td>
+      <td>19 augustus</td>
+      <td>2024-05-23</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>RGLB</th>
+      <td>AUGUSTUS</td>
+      <td>REBO</td>
+      <td>augustus</td>
+      <td>2024-06-01</td>
+      <td>NaT</td>
+    </tr>
+  </tbody>
+</table>
+### SW:hide
+#### APRIL
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ASWB</th>
+      <td>APRIL</td>
+      <td>SW</td>
+      <td>16 april</td>
+      <td>NaT</td>
+      <td>2024-04-02</td>
+    </tr>
+    <tr>
+      <th>CULB</th>
+      <td>APRIL</td>
+      <td>SW</td>
+      <td>09 april</td>
+      <td>NaT</td>
+      <td>2024-03-25</td>
+    </tr>
+    <tr>
+      <th>OWKB</th>
+      <td>APRIL</td>
+      <td>SW</td>
+      <td>09 april</td>
+      <td>NaT</td>
+      <td>2024-03-25</td>
+    </tr>
+    <tr>
+      <th>OWKB-ALPO</th>
+      <td>APRIL</td>
+      <td>SW</td>
+      <td>12 april</td>
+      <td>NaT</td>
+      <td>2024-03-27</td>
+    </tr>
+    <tr>
+      <th>PEDB</th>
+      <td>APRIL</td>
+      <td>SW</td>
+      <td>11 april</td>
+      <td>NaT</td>
+      <td>2024-03-27</td>
+    </tr>
+    <tr>
+      <th>SOCB</th>
+      <td>APRIL</td>
+      <td>SW</td>
+      <td>10 april</td>
+      <td>NaT</td>
+      <td>2024-03-26</td>
+    </tr>
+  </tbody>
+</table>#### JUNI
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ASWB</th>
+      <td>JUNI</td>
+      <td>SW</td>
+      <td>11 juni</td>
+      <td>NaT</td>
+      <td>2024-05-27</td>
+    </tr>
+    <tr>
+      <th>CULB</th>
+      <td>JUNI</td>
+      <td>SW</td>
+      <td>04 juni</td>
+      <td>NaT</td>
+      <td>2024-05-21</td>
+    </tr>
+    <tr>
+      <th>OWKB</th>
+      <td>JUNI</td>
+      <td>SW</td>
+      <td>04 juni</td>
+      <td>NaT</td>
+      <td>2024-05-21</td>
+    </tr>
+    <tr>
+      <th>OWKB-ALPO</th>
+      <td>JUNI</td>
+      <td>SW</td>
+      <td>11 juni</td>
+      <td>NaT</td>
+      <td>2024-05-27</td>
+    </tr>
+    <tr>
+      <th>PEDB</th>
+      <td>JUNI</td>
+      <td>SW</td>
+      <td>13 juni</td>
+      <td>NaT</td>
+      <td>2024-05-29</td>
+    </tr>
+    <tr>
+      <th>SOCB</th>
+      <td>JUNI</td>
+      <td>SW</td>
+      <td>05 juni</td>
+      <td>NaT</td>
+      <td>2024-05-22</td>
+    </tr>
+  </tbody>
+</table>#### AUGUSTUS
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ronde</th>
+      <th>faculteit</th>
+      <th>datum</th>
+      <th>geldig_vanaf</th>
+      <th>geldig_tm</th>
+    </tr>
+    <tr>
+      <th>opleiding</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ASWB</th>
+      <td>AUGUSTUS</td>
+      <td>SW</td>
+      <td>22 augustus</td>
+      <td>2024-05-28</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>CULB</th>
+      <td>AUGUSTUS</td>
+      <td>SW</td>
+      <td>20 augustus</td>
+      <td>2024-05-22</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>OWKB</th>
+      <td>AUGUSTUS</td>
+      <td>SW</td>
+      <td>20 augustus</td>
+      <td>2024-05-22</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>OWKB-ALPO</th>
+      <td>AUGUSTUS</td>
+      <td>SW</td>
+      <td>21 augustus</td>
+      <td>2024-05-28</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>PEDB</th>
+      <td>AUGUSTUS</td>
+      <td>SW</td>
+      <td>22 augustus</td>
+      <td>2024-05-30</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>SOCB</th>
+      <td>AUGUSTUS</td>
+      <td>SW</td>
+      <td>21 augustus</td>
+      <td>2024-05-23</td>
+      <td>NaT</td>
+    </tr>
+  </tbody>
+</table>
