@@ -4,7 +4,7 @@
     --h-theme: 300;
     --s-theme: 26%;
     --l-theme: 71%;
-    --color-theme: hsl(290, 100%, 50%);
+    --color-theme: hsl(290, 100%, 45%);
     --color-theme-light: hsl(48, 18%, 89%);
     --color-theme-background: hsl(48, 18%, 96%);
     --color-accent-1: hsl(22, 47%, 83%);
@@ -15,5 +15,7 @@
     --color-gray-dark: hsl(180, 25%, 25%);
     --color-gray-medium: hsl(180, 25%, 35%);
     --color-gray-light: hsl(180, 25%, 45%);
+    --color-header: white;
+    --color-nav-hover: hsl(290, 100%, 95%);
     --margin-sides: 1.5rem;
 }
