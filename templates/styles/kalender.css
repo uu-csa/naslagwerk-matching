@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+    margin: 0;
+    font-family: "Work Sans", serif;
+}
+
+.controls {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto 1fr auto;
+
+    multi-selector { max-width: 48ch; }
+    label { align-self: center; }
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    gap: 1rem;
+    padding: 1rem;
+    min-height: 640px;
+    /* height: 100%; */
+}
+
+.container * {
+    margin-top: 0;
+}
+
+/* weekend */
+.vis-saturday, .vis-sunday {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.vis-item {
+    font-variant: small-caps;
+    --l: 45%;
+}
+
+.event-aan, .event-aan.vis-selected {
+    --h: 120;
+    background-color: hsl(var(--h), 80%, var(--l));
+    border-color: hsl(var(--h), 80%, var(--l));
+    color: white;
+}
+
+.event-res, .event-res.vis-selected {
+    --h: 210;
+    background-color: hsl(var(--h), 80%, var(--l));
+    border-color: hsl(var(--h), 80%, var(--l));
+    color: white;
+}
+
+.event-her, .event-her.vis-selected {
+    --h: 45;
+    background-color: hsl(var(--h), 80%, var(--l));
+    border-color: hsl(var(--h), 80%, var(--l));
+    color: black;
+}
+
+.event-act, .event-act.vis-selected {
+    --h: 280;
+    background-color: hsl(var(--h), 80%, var(--l));
+    border-color: hsl(var(--h), 80%, var(--l));
+    color: white;
+}
+
+.event-uit, .event-uit.vis-selected {
+    --h: 0;
+    background-color: hsl(var(--h), 80%, var(--l));
+    border-color: hsl(var(--h), 80%, var(--l));
+    color: white;
+}
+
+.vis-item.vis-selected {
+    --l: 65%;
+}
