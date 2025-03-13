@@ -12,9 +12,10 @@ Betreft, 'studenten van de eigen opleiding die voldoen aan de volgende criteria:
 * matchingsformulier is ingediend
 * opgegeven matchingsdatum is voor de komende matchingsactiviteit'
 _____
-> **LET OP!** 
-* Je kunt pas uitnodigen voor een matchingsdatum als deze datum dichtstaat in het matchingsformulier. Controleer dus eerst in de tabel [Matchingsdata] of de datum 'Dicht' verstreken is.
-* Controleer bij het maken van de selectie of er nog processen in behandeling zijn van studenten die een eerdere (reeds verstreken) matchingsdatum gekozen hebben.
+> **LET OP!**
+>
+> * Je kunt pas uitnodigen voor een matchingsdatum als deze datum dichtstaat in het matchingsformulier. Controleer dus eerst in de tabel [Matchingsdata] of de datum 'Dicht' verstreken is.
+> * Controleer bij het maken van de selectie of er nog processen in behandeling zijn van studenten die een eerdere (reeds verstreken) matchingsdatum gekozen hebben.
 
 _____
 |COLLAPSIBLE
@@ -43,10 +44,7 @@ In deze stap selecteer je de uit te nodigen studenten en stuur je ze de uitnodig
 1. Klik op `Wijzig rubriekstatus` om de uitnodiging te versturen en de rubriekstatus te wijzigen.
 
 #### Resultaat
-Checklistitem "Student uitgenodigd?" wijzigt naar ‘Ja'. Studenten ontvangen mededeling  [M-ACT-U-****] met daarin verdere instructies over de matchingsactiviteit en de voorbereidingen daarvoor. Checklistitem "Sunrise datum" wordt automatisch op '1-1-2025' gezet. Dit hoeft niet meer handmatig ingevoerd te worden. Tegelijk met de uitnodiging krijgt de student automatisch toegang tot een Sunrise-account.
+Rubriekstatus wijzigt naar "Uitgenodigd" (`UITGENODIGD`). Checklistitem "Student uitgenodigd?" wijzigt naar 'Ja'. Studenten ontvangen mededeling  [M-ACT-U-****] met daarin verdere instructies over de matchingsactiviteit en de voorbereidingen daarvoor. Checklistitem "Sunrise datum" wordt automatisch op '1-1-2025' gezet. Dit hoeft niet meer handmatig ingevoerd te worden. Tegelijk met de uitnodiging krijgt de student automatisch toegang tot een Sunrise-account.
 -----
 
 Zie [Registraties in het proces] voor de gevolgen voor het aanmeldproces.
-
-
-

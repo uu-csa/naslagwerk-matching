@@ -2,11 +2,11 @@ dZH9V
 |CONTAINER:page__synopsis
 Hier staat hoe je een student individueel kunt uitnodigen en registreren voor een matchingsactiviteit. Dit doe je in de volgende gevallen:
 
-Als na het groepsgewijs uitnodigen (zie Groepsgewijs uitnodigen activiteit) blijkt dat iemand nog aan de groep moet worden toegevoegd.
-Als een student toestemming krijgt om aan een individuele matching deel te nemen, bijvoorbeeld wanneer:
-* de opleiding geen vaste matchingsdatum in augustus heeft,
-* de student een geldige reden heeft om de vaste matchingsdatum niet bij te wonen,
-laat in het bezwaarproces een schikking is getroffen of het bezwaar gegrond is bevonden.
+* Als na het groepsgewijs uitnodigen (zie Groepsgewijs uitnodigen activiteit) blijkt dat iemand nog aan de groep moet worden toegevoegd.
+* Als een student toestemming krijgt om aan een individuele matching deel te nemen, bijvoorbeeld wanneer:
+    * de opleiding geen vaste matchingsdatum in augustus heeft,
+    * de student een geldige reden heeft om de vaste matchingsdatum niet bij te wonen,
+    *laat in het bezwaarproces een schikking is getroffen of het bezwaar gegrond is bevonden.
 _____
 |CARD
 Wie, Faculteit
@@ -30,7 +30,6 @@ In deze stap controleer je of de matchingsdatum overeenkomt met de datum waarvoo
 1. Controleer bij de vraag `Datum keuze` of de juiste datum gevuld is en pas deze zo nodig aan door op het potloodje te klikken en de juiste datum te selecteren.
 1. Houd het scherm open en ga naar de volgende stap.
 
-
 ### Zet vraag over matchingsdatum dicht:checked
 In deze stap zet je de vraag over de matchingsdatum dicht zodat de student die zelf niet meer kan wijzigen.
 
@@ -38,25 +37,19 @@ In deze stap zet je de vraag over de matchingsdatum dicht zodat de student die z
 1. Kies bij `Mutatiestop` ‘Instellen’, vink de rubriek `S_DATUM` aan en klik op `Uitvoeren`.
 1. Houd het scherm open en ga naar de volgende stap.
 
-### Verstuur uitnodiging
+### Verstuur uitnodiging:checked
 #### Kan student de standaard mededeling ontvangen?
 Als de student de `M-ACT-U-****` mededeling kan ontvangen:
 1. Zet checklistitem "ACTIE: Automatische uitnodiging activiteit versturen" op 'Ja'
- 
-#### Moet student geen of een handmatige mededeling ontvangen?
-1. Zet checklistitem "Student uitgenodigd?" op 'Ja'. Checklistitem "ACTIE: Automatische uitnodiging activiteit versturen" blijft leeg.
-1. Stuur eventueel via het envelopje (rechtsboven) een apart bericht aan de student.
-
-### Registreer uitnodiging:checked
-In deze stap registreer je in de checklist bij de rubriek `Voorafgaand aan matchingsactiviteit` dat de student is uitgenodigd. 
-
-1. Wijzig de status van het checklistitem `Student uitgenodigd?` in de rubriek "Checklist: Uitnodiging activiteit" naar, ‘Ja’
 1. Sla de wijzigingen op via `<ctrl-s>` of de knop `Opslaan` (rechtsboven).
 
-#### Resultaat
+#### Moet student geen of een handmatige mededeling ontvangen?
+1. Zet checklistitem "Student uitgenodigd?" op 'Ja'. Checklistitem "ACTIE: Automatische uitnodiging activiteit versturen" blijft leeg.
+1. Sla de wijzigingen op via `<ctrl-s>` of de knop `Opslaan` (rechtsboven).
+1. Stuur eventueel via het envelopje (rechtsboven) een apart bericht aan de student.
 
-Rubriekstatus staat op `Uitgenodigd`(`UITGENODIGD`). Dit is nodig om makkelijk te kunnen selecteren op de studenten die je hebt uitgenodigd voor de betreffende matchingsdag.
+#### Resultaat
+Rubriekstatus wijzigt naar "Uitgenodigd" (`UITGENODIGD`). Dit is nodig om makkelijk te kunnen selecteren op de studenten die je hebt uitgenodigd voor de betreffende matchingsdag. Checklistitem "Sunrise datum" wordt automatisch op '1-1-2025' gezet. Dit hoeft niet meer handmatig ingevoerd te worden. Tegelijk met de registratie dat de studenet is uitgenodigd krijgt de student automatisch toegang tot een Sunrise-account.
 -----
 
 Zie [Registraties in het proces] voor de gevolgen voor het aanmeldproces.
-
