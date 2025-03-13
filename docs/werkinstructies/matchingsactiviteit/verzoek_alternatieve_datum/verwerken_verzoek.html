@@ -32,7 +32,7 @@
         <div>
             <div>Werkinstructies | Matchingsactiviteit | Verzoek alternatieve datum | Verwerken verzoek</div>
 <div class="header__buttons">
-    <a href="../../../werkinstructies/matchingsactiviteit/uitnodigen/individuele_matching.html" title="Werkinstructies | Individuele matching" class="header__button">&#9664;</a>
+    <a href="../../../werkinstructies/matchingsactiviteit/uitnodigen/individueel_uitnodigen.html" title="Werkinstructies | Individueel uitnodigen" class="header__button">&#9664;</a>
     <a href="../../../werkinstructies/matchingsactiviteit/registratie_aanwezigheid/maken_presentielijst.html" title="Werkinstructies | Maken presentielijst" class="header__button">&#9654;</a>
 </div>
         </div>
@@ -75,8 +75,6 @@
         <a href="../../../werkinstructies/matchingsactiviteit/uitnodigen/groepsgewijs_uitnodigen.html">Groepsgewijs uitnodigen</a>
     </li><li class="chapter__page">
         <a href="../../../werkinstructies/matchingsactiviteit/uitnodigen/individueel_uitnodigen.html">Individueel uitnodigen</a>
-    </li><li class="chapter__page">
-        <a href="../../../werkinstructies/matchingsactiviteit/uitnodigen/individuele_matching.html">Individuele matching</a>
     </li>        </ul>
 <div class="chapter__group">Verzoek alternatieve datum</div>        <ul>
 <li class="chapter__page">
@@ -147,13 +145,14 @@
 <ol>
 <li>Zoek de student op in OSIRIS.</li>
 <li>Ga naar <code>OSIRIS Aanmelding &gt; Aanmeldingen</code> (2.1.18).</li>
-<li>Selecteer bij de studentvraag <code>Datum matchingsactiviteit</code> de nieuwe datum waarop de student mag gaan matchen.</li>
-<li>Ga naar de rubriek <code>Voorafgaand aan matchingsactiviteit</code> en zet <code>VAD ingediend</code> op &lsquo;Ja&rsquo;. Na opslaan klapt de checklist verder open.</li>
+<li>Selecteer bij de rubriek &ldquo;Checklist: Na matchingsactiviteit&rdquo; de nieuwe datum waarop de student mag gaan matchen.</li>
+<li>Ga naar de rubriek &ldquo;Checklist: Voorafgaand aan matchingsactiviteit&rdquo; en zet <code>VAD ingediend</code> op &lsquo;Ja&rsquo;. Na opslaan klapt de checklist verder open.</li>
 <li>Vul bij <code>TOEWIJZING | Reden toewijzing VAD</code> onder welke categorie het verzoek valt en sla de wijzigingen op via <code>&lt;<kbd>ctrl</kbd> + <kbd>s</kbd>&gt;</code> of de knop <code>Opslaan</code>.</li>
 <li>Indien de categorie <code>Overige vorm van overmacht</code> is, vul dan ook het checklistitem <code>Overige vorm van overmacht, namelijk:</code> in.</li>
-<li>Wijzig het checklistitem <code>Student uitgenodigd?</code> van &lsquo;Ja&rsquo; naar &lsquo;Nee&rsquo;.</li>
-<li>Wijzig het checklistitem <code>Beoordeling VAD</code> naar &lsquo;Toegewezen&rsquo; en sla op. Hierdoor wordt de rubriekstatus automatisch gewijzigd naar <code>VAD Toegewezen</code>. Gevolg hiervan is dat automatisch het bericht <a class="crossref" href="../../../mededelingen/matchingsactiviteit/verzoek_alternatieve_datum/inwilliging_verzoek_alternatieve_datum.html">M-ALT-OK-**</a> aan de student wordt gestuurd waarin de nieuwe matchingsdatum staat.</li>
+<li>Wijzig het checklistitem <code>Beoordeling VAD</code> naar &lsquo;Toegewezen&rsquo; en sla op. </li>
 </ol>
+<h4>Resultaat</h4>
+<p>Rubriekstatus &ldquo;Checklist: Voorafgaand aan matchingsactiviteit&rdquo; wijzigt naar <code>VAD Toegewezen</code> (<code>TOEGEWEZEN_VAD</code>). Mededeling <a class="crossref" href="../../../mededelingen/matchingsactiviteit/verzoek_alternatieve_datum/inwilliging_verzoek_alternatieve_datum.html">M-ALT-OK-**</a> waarin de nieuwe matchingsdatum staat wordt naar de student gestuurd. Checklistitem <code>Student uitgenodigd?</code> wordt automatisch van &lsquo;Ja&rsquo; naar &lsquo;Nee&rsquo;teruggezet. </p>
 <hr />
 <p>Zie <a class="crossref" href="../../../procesinformatie/registraties_in_het_proces.html">Registraties in het proces</a> voor de gevolgen voor het aanmeldproces.</p>
     </div>
@@ -165,16 +164,18 @@
 <ol>
 <li>Zoek de student op in OSIRIS.</li>
 <li>Ga naar <code>OSIRIS Aanmelding &gt; Aanmeldingen</code> (2.1.18).</li>
-<li>Ga naar de rubriek <code>Voorafgaand aan matchingsactiviteit</code> en zet <code>VAD ingediend</code> op &lsquo;Ja&rsquo;. Na opslaan klapt de checklist verder open.</li>
+<li>Ga naar de rubriek &ldquo;Checklist: Voorafgaand aan matchingsactiviteit&rdquo; en zet <code>VAD ingediend</code> op &lsquo;Ja&rsquo;. Na opslaan klapt de checklist verder open.</li>
 <li>Vul onder <code>AFWIJZING | Toelichting bij afwijzing VAD tbv e-mail</code> waarom het verzoek niet goedgekeurd is. <strong>LET OP!</strong> Dit veld wordt getoond in het bericht, je kunt het dus niet leeg laten.</li>
-<li>Selecteer bij het checklistitem <code>Beoordeling VAD</code> de optie &lsquo;Afgewezen&rsquo;. Hierdoor wordt de rubriekstatus automatisch gewijzigd naar <code>VAD Afgewezen</code>. Gevolg hiervan is dat automatisch het bericht <a class="crossref" href="../../../mededelingen/matchingsactiviteit/verzoek_alternatieve_datum/afwijzing_verzoek_alternatieve_datum.html">M-ALT-NOK-**</a> aan de student wordt gestuurd waarin de ingevulde toelichting staat en de ongewijzigde matchingsdatum.</li>
-<li>Sla de wijzigingen op via <code>&lt;<kbd>ctrl</kbd> + <kbd>s</kbd>&gt;</code> of de knop <code>Opslaan</code> (rechtsboven).</li>
+<li>Selecteer bij het checklistitem <code>Beoordeling VAD</code> de optie &lsquo;Afgewezen&rsquo;.</li>
 </ol>
+<h4>Resultaat</h4>
+<p>Rubriekstatus &ldquo;Checklist: Voorafgaand aan matchingsactiviteit&rdquo; wijzigt naar <code>VAD Afgewezen</code> (<code>AFGEWEZEN_VAD</code>). Mededeling <a class="crossref" href="../../../mededelingen/matchingsactiviteit/verzoek_alternatieve_datum/afwijzing_verzoek_alternatieve_datum.html">M-ALT-NOK-**</a> wordt naar de student gestuurd, waarin de ingevulde toelichting staat en de ongewijzigde matchingsdatum.<br />
+1. Sla de wijzigingen op via <code>&lt;<kbd>ctrl</kbd> + <kbd>s</kbd>&gt;</code> of de knop <code>Opslaan</code> (rechtsboven).</p>
 <hr />
 <p>Zie <a class="crossref" href="../../../procesinformatie/registraties_in_het_proces.html">Registraties in het proces</a> voor de gevolgen voor het aanmeldproces.</p>
     </div>
 </details>            <div class="timestamps">
-                Aangemaakt: 17-05-2022 | laatst gewijzigd: 29-02-2024
+                Aangemaakt: 17-05-2022 | laatst gewijzigd: 13-03-2025
             </div>
         </article>
 <footer>
