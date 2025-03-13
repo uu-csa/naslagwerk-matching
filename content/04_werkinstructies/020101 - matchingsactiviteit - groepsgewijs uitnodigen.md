@@ -42,23 +42,11 @@ In deze stap selecteer je de uit te nodigen studenten en stuur je ze de uitnodig
     * `Nieuwe status`: 'Uitnodigingsbericht'
 1. Klik op `Wijzig rubriekstatus` om de uitnodiging te versturen en de rubriekstatus te wijzigen.
 
+#### Resultaat
+Checklistitem "Student uitgenodigd?" wijzigt naar ‘Ja'. Studenten ontvangen mededeling  [M-ACT-U-****] met daarin verdere instructies over de matchingsactiviteit en de voorbereidingen daarvoor. Checklistitem "Sunrise datum" wordt automatisch op '1-1-2025' gezet. Dit hoeft niet meer handmatig ingevoerd te worden. Tegelijk met de uitnodiging krijgt de student automatisch toegang tot een Sunrise-account.
 -----
 
 Zie [Registraties in het proces] voor de gevolgen voor het aanmeldproces.
 
 
-_____
-|COLLAPSIBLE
-### Registreer sunrisedatum:checked
-In deze stap registreer je bij het vrije veld voor de afgifte van een Sunrise-account de datum vanaf wanneer de student toegang moet krijgen tot zijn/haar Sunrise-account.
 
-1. Ga naar scherm `Vragen / cheklist items` (2.3.07).
-1. Selecteer de standaardselectie [M-2-ACT-SUNRISE] in het zoekscherm.
-1. Vul in het zoekscherm de volgende velden:
-    * Voeg aan `Vraag/checklist` na “O_DATUM_” de eigen opleidingscode toe.
-    * Antwoordcode met de matchingsdatum waarvoor je gaat uitnodigen (selecteer deze via, ‘  ’ ).
-1. Klik op `Zoeken`.
-1. Klik op Actie: `Wijzig antwoord/status` (rechtsboven).
-1. In het pop-up scherm vul je het veld `Nieuw antwoord` met de datum per wanneer de student een sunrise-account moet krijgen.
-1. De vinkjes en het veld `Nieuwe status` laat je leeg.
-1. Klik op `Wijzig antwoord/status` onderaan het scherm om de Sunrisedatum vast te leggen.

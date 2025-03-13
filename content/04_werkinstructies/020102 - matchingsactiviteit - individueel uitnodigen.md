@@ -1,8 +1,12 @@
 dZH9V
 |CONTAINER:page__synopsis
-Hier staat hoe je een student individueel kan uitnodigen voor een bepaalde matchingsactiviteit. Dit doe je als na het groepsgewijs uitnodigen (zie [Groepsgewijs uitnodigen activiteit]) blijkt dat iemand nog aan de groep moet worden toegevoegd.
+Hier staat hoe je een student individueel kunt uitnodigen en registreren voor een matchingsactiviteit. Dit doe je in de volgende gevallen:
 
-De student ontvangt in dit geval *geen* automatische e-mail. Zorg ervoor dat je de student apart inlicht over de matchingsactiviteit en de voorbereidingen daarvoor.
+Als na het groepsgewijs uitnodigen (zie Groepsgewijs uitnodigen activiteit) blijkt dat iemand nog aan de groep moet worden toegevoegd.
+Als een student toestemming krijgt om aan een individuele matching deel te nemen, bijvoorbeeld wanneer:
+* de opleiding geen vaste matchingsdatum in augustus heeft,
+* de student een geldige reden heeft om de vaste matchingsdatum niet bij te wonen,
+laat in het bezwaarproces een schikking is getroffen of het bezwaar gegrond is bevonden.
 _____
 |CARD
 Wie, Faculteit
@@ -12,9 +16,13 @@ Betreft, 'studenten van de eigen opleiding die voldoen aan de volgende criteria:
 
 * actief inschrijfverzoek voor bacheloropleiding met matching
 * matchingsformulier is ingediend'
+
+_____
+> Voor het uitvoeren van deze werkinstructie is afstemming nodig met degene die de uiteindelijke individuele matching gaat afnemen bij de student. Wie gaat de student uitnodigen? Op welke datum zal dat zijn? Wat moet er in de e-mail aan de student komen te staan? Hoe krijgen jullie door dat de student wel/niet aanwezig was op de afspraak? Afhankelijk van deze details zal je mogelijk nog extra zaken moeten regelen.
+
 _____
 |COLLAPSIBLE
-### Controleer de matchingsdatum:checked
+### Controleer of wijzig de matchingsdatum:checked
 In deze stap controleer je of de matchingsdatum overeenkomt met de datum waarvoor je de student gaat uitnodigen.
 
 1. Zoek de student op in OSIRIS.
@@ -30,18 +38,14 @@ In deze stap zet je de vraag over de matchingsdatum dicht zodat de student die z
 1. Kies bij `Mutatiestop` ‘Instellen’, vink de rubriek `S_DATUM` aan en klik op `Uitvoeren`.
 1. Houd het scherm open en ga naar de volgende stap.
 
-### Verstuur uitnodigingsmail:checked
-In deze stap stuur je de uitnodigingsmail voor de matchingsactiviteit aan de geselecteerde student.
-
-1. Klik op het envelopje in de rechterbovenhoek.
-1. Selecteer in het pop-up scherm de mededeling [M-ACT-U-****].
-1. Pas indien nodig het bericht aan voor deze student.
-1. Klik op `Volgende`.
-1. Klik op `Versturen`.
-1. Houd het scherm open en ga naar de volgende stap.
-
-#### Resultaat
-De student heeft de mededeling [M-ACT-U-****] ontvangen en is succesvol geïnformeerd over de matchingsactiviteit. 
+### Verstuur uitnodiging
+#### Kan student de standaard mededeling ontvangen?
+Als de student de `M-ACT-U-****` mededeling kan ontvangen:
+1. Zet checklistitem "ACTIE: Automatische uitnodiging activiteit versturen" op 'Ja'
+ 
+#### Moet student geen of een handmatige mededeling ontvangen?
+1. Zet checklistitem "Student uitgenodigd?" op 'Ja'. Checklistitem "ACTIE: Automatische uitnodiging activiteit versturen" blijft leeg.
+1. Stuur eventueel via het envelopje (rechtsboven) een apart bericht aan de student.
 
 ### Registreer uitnodiging:checked
 In deze stap registreer je in de checklist bij de rubriek `Voorafgaand aan matchingsactiviteit` dat de student is uitgenodigd. 
@@ -56,10 +60,3 @@ Rubriekstatus staat op `Uitgenodigd`(`UITGENODIGD`). Dit is nodig om makkelijk t
 
 Zie [Registraties in het proces] voor de gevolgen voor het aanmeldproces.
 
-### Registreer sunrisedatum:checked
-In deze stap leg je de sunrisedatum vast per wanneer de student toegang moet krijgen tot een sunrise-account voor de opleiding. 
-
-1. Vul in de checklist bij Sunrise datum de datum in per wanneer de student toegang moet krijgen tot een sunrise-account.
-1. Sla de wijzigingen op via `<ctrl-s>` of de knop `Opslaan` (rechtsboven).
-
-Hiermee wordt in scherm `Opleiding - Vrije velden` (2.1.14) een vrij veld geregistreerd.
