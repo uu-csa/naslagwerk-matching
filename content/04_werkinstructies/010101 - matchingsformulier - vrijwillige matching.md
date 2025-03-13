@@ -13,7 +13,7 @@ Betreft, 'studenten van de eigen opleiding die voldoen aan de volgende criteria:
 
 * actief inschrijfverzoek voor bacheloropleiding met matching
 * student is niet matchingsplichtig vanwege woonadres in het buitenland
-* verzoek ingediend per e-mail voor vrijwillige matching waarbij ze willen deelnemen aan de matchingsactiviteit
+* verzoek ingediend per e-mail voor vrijwillige matching waarbij ze willen deelnemen aan de matchingsactiviteit'
 _____
 |COLLAPSIBLE
 ### Koppel proces aan inschrijfregel:checked
@@ -27,7 +27,7 @@ In deze stap koppel je het matchingsproces aan de betreffende inschrijfregel. De
 1. Klik op "Zoeken".
 1. Selecteer de relevante inschrijfregel in de resultatenlijst.
 1. Klik op "Actie: Starten aanmeldingen" (rechtsboven).
-1. Voer de code van het matchingsproces (`BA****_MATCHING`) in bij het invulveld "Proces". 
+1. Voer de code van het matchingsproces (`BA****_MATCHING`) in bij het invulveld "Proces".
 1. Klik op "Aanmeldingen starten" ("Criteria automatisch starten toepassen?" moet op "Nee" blijven staan.)
 
 #### Resultaat
