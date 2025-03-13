@@ -45,6 +45,7 @@ In deze stap selecteer je de uit te nodigen studenten en stuur je ze de uitnodig
 
 #### Resultaat
 Rubriekstatus wijzigt naar "Uitgenodigd" (`UITGENODIGD`). Checklistitem "Student uitgenodigd?" wijzigt naar 'Ja'. Studenten ontvangen mededeling  [M-ACT-U-****] met daarin verdere instructies over de matchingsactiviteit en de voorbereidingen daarvoor. Checklistitem "Sunrise datum" wordt automatisch op '1-1-2025' gezet. Dit hoeft niet meer handmatig ingevoerd te worden. Tegelijk met de uitnodiging krijgt de student automatisch toegang tot een Sunrise-account.
+
 -----
 
 Zie [Registraties in het proces] voor de gevolgen voor het aanmeldproces.
