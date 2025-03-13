@@ -26,4 +26,7 @@ _____
 1. Klik op `Volgende`.
 1. Klik op `Versturen`.
 
+#### Resultaat
+De studenten ontvangen de mededeling [M-FOR-H-****] dat het matchingsformulier nog niet is ingediend en dat de matchingsactiviteit over drie weken plaatsvindt.
+
 Na 1 mei past CSa de standaardselectie aan. Deze herinnering moet namelijk niet verstuurd worden aan studenten bij wie de deadline voor het invullen van het formulier 15 mei is.

@@ -24,3 +24,6 @@ _____
 1. Klik onder `Acties` (rechtsboven) op `Verstuur mededeling aanmelding`.
 1. Selecteer bij `Mededeling` [M_FOR_H_D]
 1. Klik op `Verstuur`.
+
+#### Resultaat
+De studenten ontvangen de mededeling [M_FOR_H_D] dat het matchingsformulier nog niet is ingediend en dat de deadline snel nadert.

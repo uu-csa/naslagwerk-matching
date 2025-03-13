@@ -21,12 +21,14 @@ In deze stap registreer je dat het verzoek van de student is goedgekeurd en wat 
 
 1. Zoek de student op in OSIRIS.
 1. Ga naar `OSIRIS Aanmelding > Aanmeldingen` (2.1.18).
-1. Selecteer bij de studentvraag `Datum matchingsactiviteit` de nieuwe datum waarop de student mag gaan matchen.
-1. Ga naar de rubriek `Voorafgaand aan matchingsactiviteit` en zet `VAD ingediend` op 'Ja'. Na opslaan klapt de checklist verder open.
+1. Selecteer bij de rubriek "Checklist: Na matchingsactiviteit" de nieuwe datum waarop de student mag gaan matchen.
+1. Ga naar de rubriek "Checklist: Voorafgaand aan matchingsactiviteit" en zet `VAD ingediend` op 'Ja'. Na opslaan klapt de checklist verder open.
 1. Vul bij `TOEWIJZING | Reden toewijzing VAD` onder welke categorie het verzoek valt en sla de wijzigingen op via `<ctrl-s>` of de knop `Opslaan`.
 1. Indien de categorie `Overige vorm van overmacht` is, vul dan ook het checklistitem `Overige vorm van overmacht, namelijk:` in.
-1. Wijzig het checklistitem `Student uitgenodigd?` van 'Ja' naar 'Nee'.
-1. Wijzig het checklistitem `Beoordeling VAD` naar 'Toegewezen' en sla op. Hierdoor wordt de rubriekstatus automatisch gewijzigd naar `VAD Toegewezen`. Gevolg hiervan is dat automatisch het bericht [M-ALT-OK-**] aan de student wordt gestuurd waarin de nieuwe matchingsdatum staat.
+1. Wijzig het checklistitem `Beoordeling VAD` naar 'Toegewezen' en sla op. 
+
+#### Resultaat 
+Rubriekstatus "Checklist: Voorafgaand aan matchingsactiviteit" wijzigt naar `VAD Toegewezen` (`TOEGEWEZEN_VAD`). Mededeling [M-ALT-OK-**] waarin de nieuwe matchingsdatum staat wordt naar de student gestuurd. Checklistitem `Student uitgenodigd?` wordt automatisch van 'Ja' naar 'Nee'teruggezet. 
 
 
 -----
@@ -38,9 +40,12 @@ In deze stap registreer je dat het verzoek van de student is afgekeurd. De stude
 
 1. Zoek de student op in OSIRIS.
 1. Ga naar `OSIRIS Aanmelding > Aanmeldingen` (2.1.18).
-1. Ga naar de rubriek `Voorafgaand aan matchingsactiviteit` en zet `VAD ingediend` op 'Ja'. Na opslaan klapt de checklist verder open.
+1. Ga naar de rubriek "Checklist: Voorafgaand aan matchingsactiviteit" en zet `VAD ingediend` op 'Ja'. Na opslaan klapt de checklist verder open.
 1. Vul onder `AFWIJZING | Toelichting bij afwijzing VAD tbv e-mail` waarom het verzoek niet goedgekeurd is. **LET OP!** Dit veld wordt getoond in het bericht, je kunt het dus niet leeg laten.
-1. Selecteer bij het checklistitem `Beoordeling VAD` de optie 'Afgewezen'. Hierdoor wordt de rubriekstatus automatisch gewijzigd naar `VAD Afgewezen`. Gevolg hiervan is dat automatisch het bericht [M-ALT-NOK-**] aan de student wordt gestuurd waarin de ingevulde toelichting staat en de ongewijzigde matchingsdatum.
+1. Selecteer bij het checklistitem `Beoordeling VAD` de optie 'Afgewezen'.
+
+#### Resultaat
+Rubriekstatus "Checklist: Voorafgaand aan matchingsactiviteit" wijzigt naar `VAD Afgewezen` (`AFGEWEZEN_VAD`). Mededeling [M-ALT-NOK-**] wordt naar de student gestuurd, waarin de ingevulde toelichting staat en de ongewijzigde matchingsdatum.
 1. Sla de wijzigingen op via `<ctrl-s>` of de knop `Opslaan` (rechtsboven).
 
 -----

@@ -41,4 +41,4 @@ In deze stap registreer je bij het matchingsproces dat de matching vrijwillig is
 1. Sla de wijzigingen op via `<ctrl-s>` of de knop `Opslaan` (rechtsboven).
 
 #### Resultaat
-De rubriekstatus "Checklist: Registratie vrijwillige matching" (`VRIJWILLIG`) wijzigt naar "Alleen formulier" (`ALLEEN_FORM`).
+De rubriekstatus "Checklist: Registratie vrijwillige matching" (`VRIJWILLIG`) wijzigt naar "Alleen formulier" (`ALLEEN_FORM`). 

@@ -1,6 +1,6 @@
 UjWU9
 |CONTAINER:page__synopsis
-Hier staat hoe je een student individueel kan registreren dat iemand individuele matching doet. Dit doe je als een student toestemming krijgt om aan een individuele matching deel te nemen. Dit komt voor bij,
+Hier staat hoe je een student kunt registreren voor een individuele matching, wanneer de student toestemming krijgt om hieraan deel te nemen. Dit komt voor bij, 
 
 * opleidingen die geen vaste matchingsdatum in augustus hebben
 * studenten die een geldige reden hebben om de vaste matchingsdatum in augustus niet bij te wonen
@@ -22,7 +22,7 @@ _____
 _____
 |COLLAPSIBLE
 ### Wijzig de matchingsdatum:checked
-In deze stap pas je de matchingsdatum aan naar 'Individueel matchen'. Doorgaans zal de student een afspraak maken met een studieadviseur of iemand anders van de opleiding voor een indvidueel gesprek.
+In deze stap pas je de matchingsdatum aan naar 'Individueel matchen'. Doorgaans zal de student een afspraak maken met een studieadviseur of iemand anders van de opleiding voor een individueel gesprek.
 
 1. Zoek de student op in OSIRIS.
 1. Ga naar `OSIRIS Aanmelding > Aanmeldingen` (2.1.18).
@@ -34,13 +34,17 @@ In deze stap zet je de vraag over de matchingsdatum dicht zodat de student deze 
 
 1. Klik op `Acties` (rechtsboven) en selecteer de optie `Mutatiestop instellen of opheffen`.
 1. Kies bij `Mutatiestop` ‘Instellen’, vink de rubriek `S_DATUM` aan en klik op `Uitvoeren`.
-1. Houd het scherm open en ga naar de volgende stap.
+1. Houd het scherm open en ga naar de volgende stap. 
 
 ### Registreer uitnodiging:checked
 In deze stap registreer je in de checklist bij de rubriek `Voorafgaand aan matchingsactiviteit` dat de student is uitgenodigd. Het gevolg hiervan is dat de rubriekstatus op `Uitgenodigd` komt. Deze stap is nodig om makkelijk te kunnen selecteren op de mensen die je hebt uitgenodigd voor de betreffende matchingsdag.
 
 1. Wijzig de status van het checklistitem `Student uitgenodigd?` in de rubriek `Voorafgaand aan matchingsactiviteit` naar, 'Ja'
 1. Sla de wijzigingen op via `<ctrl-s>` of de knop `Opslaan` (rechtsboven).
+
+#### Resultaat
+
+Rubriekstatus staat op `Uitgenodigd`(`UITGENODIGD`). Dit is nodig om makkelijk te kunnen selecteren op de studenten die je hebt uitgenodigd voor de betreffende matchingsdag.
 
 -----
 

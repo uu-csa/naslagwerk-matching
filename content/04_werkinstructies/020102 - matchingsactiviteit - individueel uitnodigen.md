@@ -40,12 +40,18 @@ In deze stap stuur je de uitnodigingsmail voor de matchingsactiviteit aan de ges
 1. Klik op `Versturen`.
 1. Houd het scherm open en ga naar de volgende stap.
 
-### Registreer uitnodiging:checked
-In deze stap registreer je in de checklist bij de rubriek `Voorafgaand aan matchingsactiviteit` dat de student is uitgenodigd. Het gevolg hiervan is dat de rubriekstatus op `Uitgenodigd` komt. Deze stap is nodig om makkelijk te kunnen selecteren op de mensen die je hebt uitgenodigd voor de betreffende matchingsdag.
+#### Resultaat
+De student heeft de mededeling [M-ACT-U-****] ontvangen en is succesvol geïnformeerd over de matchingsactiviteit. 
 
-1. Wijzig de status van het checklistitem `Student uitgenodigd?` in de rubriek `Voorafgaand aan matchingsactiviteit` naar, ‘Ja’
+### Registreer uitnodiging:checked
+In deze stap registreer je in de checklist bij de rubriek `Voorafgaand aan matchingsactiviteit` dat de student is uitgenodigd. 
+
+1. Wijzig de status van het checklistitem `Student uitgenodigd?` in de rubriek "Checklist: Uitnodiging activiteit" naar, ‘Ja’
 1. Sla de wijzigingen op via `<ctrl-s>` of de knop `Opslaan` (rechtsboven).
 
+#### Resultaat
+
+Rubriekstatus staat op `Uitgenodigd`(`UITGENODIGD`). Dit is nodig om makkelijk te kunnen selecteren op de studenten die je hebt uitgenodigd voor de betreffende matchingsdag.
 -----
 
 Zie [Registraties in het proces] voor de gevolgen voor het aanmeldproces.
