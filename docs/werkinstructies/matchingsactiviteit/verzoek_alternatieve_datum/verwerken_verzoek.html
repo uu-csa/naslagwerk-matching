@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="../../../css/root.css">
     <link rel="stylesheet" href="../../../css/base.css">
     <link rel="stylesheet" href="../../../css/custom.css">
-    <link rel="stylesheet" href="../../../css/collapsible.css">
     <link rel="stylesheet" href="../../../css/card.css">
+    <link rel="stylesheet" href="../../../css/collapsible.css">
 
 <link rel="stylesheet" href="../../../css/main.css">
     <title>Verwerken verzoek | Naslagwerk matching 2025/2026</title>
@@ -141,18 +141,22 @@
 <details open>
     <summary class="collapsible__label">Registreer toewijzing verzoek</summary>
     <div class="collapsible__content">
-        <p>In deze stap registreer je dat het verzoek van de student is goedgekeurd en wat de reden was voor de toekenning. Daarnaast wordt een nieuwe matchingsdatum opgegeven zodat deze aan de student gecommuniceerd kan worden via een automatisch gegenereerd bericht (zie <a class="crossref" href="../../../mededelingen/matchingsactiviteit/verzoek_alternatieve_datum/inwilliging_verzoek_alternatieve_datum.html">M-ALT-OK-**</a>).</p>
+        <p>In deze stap registreer je dat het verzoek van de student is goedgekeurd en wat de reden was voor de toekenning. Daarnaast registreer je de nieuwe matchingsdatum zodat deze aan de student gecommuniceerd kan worden via een automatisch gegenereerd bericht (zie <a class="crossref" href="../../../mededelingen/matchingsactiviteit/verzoek_alternatieve_datum/inwilliging_verzoek_alternatieve_datum.html">M-ALT-OK-**</a>).</p>
 <ol>
 <li>Zoek de student op in OSIRIS.</li>
 <li>Ga naar <code>OSIRIS Aanmelding &gt; Aanmeldingen</code> (2.1.18).</li>
 <li>Selecteer bij de rubriek &ldquo;Checklist: Na matchingsactiviteit&rdquo; de nieuwe datum waarop de student mag gaan matchen.</li>
-<li>Ga naar de rubriek &ldquo;Checklist: Voorafgaand aan matchingsactiviteit&rdquo; en zet <code>VAD ingediend</code> op &lsquo;Ja&rsquo;. Na opslaan klapt de checklist verder open.</li>
+<li>Ga naar de rubriek &ldquo;Checklist: Uitnodiging activiteit&rdquo; (<code>VOOR_ACTIVITEIT</code>) en zet <code>VAD ingediend</code> op &lsquo;Ja&rsquo;. Na opslaan klapt de checklist verder open.</li>
 <li>Vul bij <code>TOEWIJZING | Reden toewijzing VAD</code> onder welke categorie het verzoek valt en sla de wijzigingen op via <code>&lt;<kbd>ctrl</kbd> + <kbd>s</kbd>&gt;</code> of de knop <code>Opslaan</code>.</li>
 <li>Indien de categorie <code>Overige vorm van overmacht</code> is, vul dan ook het checklistitem <code>Overige vorm van overmacht, namelijk:</code> in.</li>
-<li>Wijzig het checklistitem <code>Beoordeling VAD</code> naar &lsquo;Toegewezen&rsquo; en sla op. </li>
+<li>Wijzig het checklistitem <code>Beoordeling VAD</code> naar &lsquo;Toegewezen&rsquo; en sla op.</li>
 </ol>
 <h4>Resultaat</h4>
-<p>Rubriekstatus &ldquo;Checklist: Voorafgaand aan matchingsactiviteit&rdquo; wijzigt naar <code>VAD Toegewezen</code> (<code>TOEGEWEZEN_VAD</code>). Mededeling <a class="crossref" href="../../../mededelingen/matchingsactiviteit/verzoek_alternatieve_datum/inwilliging_verzoek_alternatieve_datum.html">M-ALT-OK-**</a> waarin de nieuwe matchingsdatum staat wordt naar de student gestuurd. Checklistitem <code>Student uitgenodigd?</code> wordt automatisch van &lsquo;Ja&rsquo; naar &lsquo;Nee&rsquo;teruggezet. </p>
+<ul>
+<li>Rubriekstatus &ldquo;Checklist: Uitnodiging activiteit&rdquo; (<code>VOOR_ACTIVITEIT</code>) wijzigt naar &ldquo;VAD Toegewezen&rdquo; (<code>TOEGEWEZEN_VAD</code>).</li>
+<li>Mededeling <a class="crossref" href="../../../mededelingen/matchingsactiviteit/verzoek_alternatieve_datum/inwilliging_verzoek_alternatieve_datum.html">M-ALT-OK-**</a> waarin de nieuwe matchingsdatum staat wordt naar de student gestuurd.</li>
+<li>Checklistitem <code>Student uitgenodigd?</code> wordt automatisch van &lsquo;Ja&rsquo; naar &lsquo;Nee&rsquo; teruggezet.</li>
+</ul>
 <hr />
 <p>Zie <a class="crossref" href="../../../procesinformatie/registraties_in_het_proces.html">Registraties in het proces</a> voor de gevolgen voor het aanmeldproces.</p>
     </div>
@@ -164,18 +168,21 @@
 <ol>
 <li>Zoek de student op in OSIRIS.</li>
 <li>Ga naar <code>OSIRIS Aanmelding &gt; Aanmeldingen</code> (2.1.18).</li>
-<li>Ga naar de rubriek &ldquo;Checklist: Voorafgaand aan matchingsactiviteit&rdquo; en zet <code>VAD ingediend</code> op &lsquo;Ja&rsquo;. Na opslaan klapt de checklist verder open.</li>
+<li>Ga naar de rubriek &ldquo;Checklist: Uitnodiging activiteit&rdquo; (<code>VOOR_ACTIVITEIT</code>) en zet <code>VAD ingediend</code> op &lsquo;Ja&rsquo;. Na opslaan klapt de checklist verder open.</li>
 <li>Vul onder <code>AFWIJZING | Toelichting bij afwijzing VAD tbv e-mail</code> waarom het verzoek niet goedgekeurd is. <strong>LET OP!</strong> Dit veld wordt getoond in het bericht, je kunt het dus niet leeg laten.</li>
 <li>Selecteer bij het checklistitem <code>Beoordeling VAD</code> de optie &lsquo;Afgewezen&rsquo;.</li>
+<li>Sla de wijzigingen op via <code>&lt;<kbd>ctrl</kbd> + <kbd>s</kbd>&gt;</code> of de knop <code>Opslaan</code> (rechtsboven).</li>
 </ol>
 <h4>Resultaat</h4>
-<p>Rubriekstatus &ldquo;Checklist: Voorafgaand aan matchingsactiviteit&rdquo; wijzigt naar <code>VAD Afgewezen</code> (<code>AFGEWEZEN_VAD</code>). Mededeling <a class="crossref" href="../../../mededelingen/matchingsactiviteit/verzoek_alternatieve_datum/afwijzing_verzoek_alternatieve_datum.html">M-ALT-NOK-**</a> wordt naar de student gestuurd, waarin de ingevulde toelichting staat en de ongewijzigde matchingsdatum.<br />
-1. Sla de wijzigingen op via <code>&lt;<kbd>ctrl</kbd> + <kbd>s</kbd>&gt;</code> of de knop <code>Opslaan</code> (rechtsboven).</p>
+<ul>
+<li>Rubriekstatus &ldquo;Checklist: Uitnodiging activiteit&rdquo; (<code>VOOR_ACTIVITEIT</code>) wijzigt naar &ldquo;VAD Afgewezen&rdquo; (<code>AFGEWEZEN_VAD</code>).</li>
+<li>Mededeling <a class="crossref" href="../../../mededelingen/matchingsactiviteit/verzoek_alternatieve_datum/afwijzing_verzoek_alternatieve_datum.html">M-ALT-NOK-**</a> wordt naar de student gestuurd, waarin de ingevulde toelichting staat en de ongewijzigde matchingsdatum.</li>
+</ul>
 <hr />
 <p>Zie <a class="crossref" href="../../../procesinformatie/registraties_in_het_proces.html">Registraties in het proces</a> voor de gevolgen voor het aanmeldproces.</p>
     </div>
 </details>            <div class="timestamps">
-                Aangemaakt: 17-05-2022 | laatst gewijzigd: 13-03-2025
+                Aangemaakt: 17-05-2022 | laatst gewijzigd: 14-03-2025
             </div>
         </article>
 <footer>
