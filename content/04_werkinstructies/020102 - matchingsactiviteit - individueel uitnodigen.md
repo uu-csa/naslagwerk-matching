@@ -18,6 +18,8 @@ Betreft, 'studenten van de eigen opleiding die voldoen aan de volgende criteria:
 * matchingsformulier is ingediend'
 
 _____
+> **LET OP!**
+>
 > Voor het uitvoeren van deze werkinstructie is afstemming nodig met degene die de uiteindelijke individuele matching gaat afnemen bij de student. Wie gaat de student uitnodigen? Op welke datum zal dat zijn? Wat moet er in de e-mail aan de student komen te staan? Hoe krijgen jullie door dat de student wel/niet aanwezig was op de afspraak? Afhankelijk van deze details zal je mogelijk nog extra zaken moeten regelen.
 
 _____
@@ -49,7 +51,9 @@ Als de student de `M-ACT-U-****` mededeling kan ontvangen:
 1. Stuur eventueel via het envelopje (rechtsboven) een apart bericht aan de student.
 
 #### Resultaat
-Rubriekstatus wijzigt naar "Uitgenodigd" (`UITGENODIGD`). Dit is nodig om makkelijk te kunnen selecteren op de studenten die je hebt uitgenodigd voor de betreffende matchingsdag. Checklistitem "Sunrise datum" wordt automatisch op '1-1-2025' gezet. Dit hoeft niet meer handmatig ingevoerd te worden. Tegelijk met de registratie dat de studenet is uitgenodigd krijgt de student automatisch toegang tot een Sunrise-account.`
+- Rubriekstatus wijzigt naar "Uitgenodigd" (`UITGENODIGD`) (nodig om makkelijk te kunnen selecteren op de studenten die je hebt uitgenodigd voor de betreffende matchingsdag).
+- Checklistitem "Sunrise datum" wordt automatisch op '1-1-2025' gezet. Dit hoeft niet meer handmatig ingevoerd te worden.
+- Tegelijk met de registratie dat de studenet is uitgenodigd krijgt de student automatisch toegang tot een Sunrise-account.`
 
 -----
 

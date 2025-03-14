@@ -1,6 +1,7 @@
 urZgR
 |CONTAINER:page__synopsis
 Hier staat hoe je de aan-/afwezigheid van studenten registreert. Dit resulteert in dat studenten:
+
 * een bevestiging van deelname ontvangen als ze aanwezig waren;
 * een afwijzing ontvangen als ze afwezig waren.
 _____

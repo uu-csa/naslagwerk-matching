@@ -10,11 +10,6 @@ Wanneer, net voordat de matchingsactiviteit plaatsvindt
 Hoe, groepsgewijs
 Betreft, 'studenten die zijn uitgenodigd voor de eerstvolgende matchingsactiviteit.'
 _____
-> Tijdens de matchingsactiviteit moet geregistreerd worden wie er wel/niet aanwezig is. Het inlezen van de aanwezigheid gebeurde vorig jaar via scherm 2.3.07. Dit scherm bleek performance problemen te hebben. Daarom maken we nu gebruik van de nieuwe inleesmogelijkheid in scherm 2.3.01.
-
-> Het inleesbestand moet aan bepaalde voorwaarden voldoen om ingelezen te kunnen worden. Hieronder geven we een manier om ervoor te zorgen dat je ingevulde presentielijst makkelijk om te zetten is naar een door OSIRIS leesbaar bestand.
-
-_____
 |COLLAPSIBLE
 ### Maak presentielijst:checked
 Hier staat hoe je de presentielijst aanmaakt die bij [Inlezen presentielijst] gebruikt wordt om de aanwezigheid te registreren.
