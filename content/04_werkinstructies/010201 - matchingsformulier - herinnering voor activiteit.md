@@ -22,7 +22,7 @@ _____
     * Klik op Zoeken.
 1. Selecteer in de resultatenlijst alle regels (met `<ctrl-a>` of via `Bekijken > Selecteer alle rijen`).
 1. Klik op het envelopje bovenin de resultatenlijst.
-1. Selecteer in het vergrootglas de mededeling [M-FOR-H-****].
+1. Selecteer de mededeling [M-FOR-H-****].
 1. Klik op `Volgende`.
 1. Klik op `Versturen`.
 

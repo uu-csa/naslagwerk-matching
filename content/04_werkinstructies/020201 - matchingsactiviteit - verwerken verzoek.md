@@ -19,10 +19,24 @@ _____
 ### Registreer toewijzing verzoek:checked
 In deze stap registreer je dat het verzoek van de student is goedgekeurd en wat de reden was voor de toekenning. Daarnaast registreer je de nieuwe matchingsdatum zodat deze aan de student gecommuniceerd kan worden via een automatisch gegenereerd bericht (zie [M-ALT-OK-**]).
 
+* Mocht je de gewenste datum niet kunnen selecteren (je ziet de data dan in het grijs staan), dan ligt dit aan je persoonlijke instelling. Klik op je naam (rechtsboven) en vink 'beperk lijst tot actuele waarden' uit. Hierdoor kan je alle data kiezen. 
+
+#### Als de student wel eerder uitgenodigd is
 1. Zoek de student op in OSIRIS.
 1. Ga naar `OSIRIS Aanmelding > Aanmeldingen` (2.1.18).
-1. Selecteer bij de rubriek "Checklist: Na matchingsactiviteit" de nieuwe datum waarop de student mag gaan matchen.
-1. Ga naar de rubriek "Checklist: Uitnodiging activiteit" (`VOOR_ACTIVITEIT`) en zet `VAD ingediend` op 'Ja'. Na opslaan klapt de checklist verder open.
+1. Zet de status van de rubriek "Checklist: Datum matchingsactiviteit" terug op `in behandeling` en sla op `<ctrl-s>`. 
+1. Selecteer bij de rubriek "Formulier: Datum matchingsactiviteit" de nieuwe matchingsdatum voor de student. Klik hiervoor op het potloodicoon en kies de juiste datum bij "Antwoord".
+1. Ga naar de rubriek "Checklist: Uitnodiging activiteit" (`VOOR_ACTIVITEIT`) en zet `VAD ingediend` op 'Ja'. Na opslaan `<ctrl-s>` klapt de checklist verder open.
+1. Vul bij `TOEWIJZING | Reden toewijzing VAD` onder welke categorie het verzoek valt en sla de wijzigingen op via `<ctrl-s>` of de knop `Opslaan`.
+1. Indien de categorie `Overige vorm van overmacht` is, vul dan ook het checklistitem `Overige vorm van overmacht, namelijk:` in.
+1. Wijzig het checklistitem `Beoordeling VAD` naar 'Toegewezen' en sla op.
+
+#### Als de student nog niet eerder uitgenodigd is
+1. Adviseer de student om het matchingsformulier in te vullen, zodat het proces al is gestart.
+1. Zoek de student op in OSIRIS.
+1. Ga naar `OSIRIS Aanmelding > Aanmeldingen` (2.1.18).
+1. Selecteer bij de rubriek "Formulier: Datum matchingsactiviteit" de nieuwe matchingsdatum voor de student. Klik hiervoor op het potloodicoon en kies de juiste datum bij "Antwoord".
+1. Ga naar de rubriek "Checklist: Uitnodiging activiteit" (`VOOR_ACTIVITEIT`) en zet `VAD ingediend` op 'Ja'. Na opslaan `<ctrl-s>` klapt de checklist verder open.
 1. Vul bij `TOEWIJZING | Reden toewijzing VAD` onder welke categorie het verzoek valt en sla de wijzigingen op via `<ctrl-s>` of de knop `Opslaan`.
 1. Indien de categorie `Overige vorm van overmacht` is, vul dan ook het checklistitem `Overige vorm van overmacht, namelijk:` in.
 1. Wijzig het checklistitem `Beoordeling VAD` naar 'Toegewezen' en sla op.

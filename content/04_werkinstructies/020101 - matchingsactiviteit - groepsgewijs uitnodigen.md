@@ -39,12 +39,12 @@ In deze stap selecteer je de uit te nodigen studenten en stuur je ze de uitnodig
 1. Ga verder met de selectie uit de vorige stap.
 1. Klik op `ACTIES` (rechtsboven) en selecteer `Rubriekstatus wijzigen`.
 1. Selecteer in het pop-up menu:
-    * `Rubriek`: 'Voorafgaand aan matchingsactiviteit'
+    * `Rubriek`: 'Uitnodiging activiteit'
     * `Nieuwe status`: 'Uitnodigingsbericht'
 1. Klik op `Wijzig rubriekstatus` om de uitnodiging te versturen en de rubriekstatus te wijzigen.
 
 #### Resultaat
-- Rubriekstatus wijzigt naar "Uitgenodigd" (`UITGENODIGD`).
+- Rubriekstatus wijzigt naar 'Uitgenodigd' (`UITGENODIGD`).
 - Checklistitem "Student uitgenodigd?" wijzigt naar 'Ja'. Studenten ontvangen mededeling  [M-ACT-U-****] met daarin verdere instructies over de matchingsactiviteit en de voorbereidingen daarvoor.
 - Checklistitem "Sunrise datum" wordt automatisch op '1-1-2025' gezet. Dit hoeft niet meer handmatig ingevoerd te worden.
 - Tegelijk met de uitnodiging krijgt de student automatisch toegang tot een Sunrise-account.

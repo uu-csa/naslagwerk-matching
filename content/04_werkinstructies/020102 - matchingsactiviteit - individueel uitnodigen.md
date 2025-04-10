@@ -42,7 +42,7 @@ In deze stap zet je de vraag over de matchingsdatum dicht zodat de student die z
 ### Verstuur uitnodiging:checked
 #### Kan student de standaard mededeling ontvangen?
 Als de student de `M-ACT-U-****` mededeling kan ontvangen:
-1. Zet checklistitem "ACTIE: Automatische uitnodiging activiteit versturen" op 'Ja'
+1. Zet checklistitem "ACTIE: Automatische uitnodiging activiteit versturen" op 'Ja'.
 1. Sla de wijzigingen op via `<ctrl-s>` of de knop `Opslaan` (rechtsboven).
 
 #### Moet student geen of een handmatige mededeling ontvangen?
@@ -51,9 +51,9 @@ Als de student de `M-ACT-U-****` mededeling kan ontvangen:
 1. Stuur eventueel via het envelopje (rechtsboven) een apart bericht aan de student.
 
 #### Resultaat
-- Rubriekstatus wijzigt naar "Uitgenodigd" (`UITGENODIGD`) (nodig om makkelijk te kunnen selecteren op de studenten die je hebt uitgenodigd voor de betreffende matchingsdag).
+- Rubriekstatus wijzigt naar 'Uitgenodigd' (`UITGENODIGD`) (nodig om makkelijk te kunnen selecteren op de studenten die je hebt uitgenodigd voor de betreffende matchingsdag).
 - Checklistitem "Sunrise datum" wordt automatisch op '1-1-2025' gezet. Dit hoeft niet meer handmatig ingevoerd te worden.
-- Tegelijk met de registratie dat de studenet is uitgenodigd krijgt de student automatisch toegang tot een Sunrise-account.`
+- Tegelijk met de registratie dat de student is uitgenodigd krijgt de student automatisch toegang tot een Sunrise-account.
 
 -----
 

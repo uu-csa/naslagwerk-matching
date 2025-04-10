@@ -23,7 +23,7 @@ _____
 1. Selecteer alle rijen (CTRL A).
 1. Klik onder `Acties` (rechtsboven) op `Rubriekstatus wijzigen`.
 1. Vul de volgende antwoorden in:
-    * `Rubriek` 'Voorafgaand aan matchingsactiviteit'
+    * `Rubriek` 'Uitnodiging activiteit'
     * `Nieuwe status` 'Afgewezen (formulier)'
     * Laat het vinkje 'Behandel bestaande status als nieuw' leeg
 1. Klik op `Wijzig rubriekstatus`.
