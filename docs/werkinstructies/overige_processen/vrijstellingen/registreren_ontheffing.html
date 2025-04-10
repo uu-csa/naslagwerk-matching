@@ -6,8 +6,6 @@
     <link rel="stylesheet" href="../../../css/root.css">
     <link rel="stylesheet" href="../../../css/base.css">
     <link rel="stylesheet" href="../../../css/custom.css">
-    <link rel="stylesheet" href="../../../css/card.css">
-    <link rel="stylesheet" href="../../../css/collapsible.css">
 
 <link rel="stylesheet" href="../../../css/main.css">
     <title>Registreren ontheffing | Naslagwerk matching 2025/2026</title>
@@ -141,7 +139,7 @@
     <summary class="collapsible__label">Controleer GV-adres</summary>
     <div class="collapsible__content">
         <ol>
-<li>Zoek de student op in OSIRIS.</li>
+<li>Zoek student op in OSIRIS dmv (2.1.03 of 2.1) en het invoeren van de <code>io_aanvr_id</code> vanuit de werkvoorraad.</li>
 <li>Ga naar <code>Studentgegevens &gt; Adressen</code> (2.1.04).</li>
 <li>Controleer dat er geen GV-adres aanwezig is. Indien dit wel het geval is, controleer dan de status ‘Vertrokken’ onder <code>Personalia – DUO/SL</code>.</li>
 <li>Indien de student voor ontheffing in aanmerking komt, volg dan onderstaande instructies bij <code>Registreer toekenning verzoek ontheffing</code> en anders bij <code>Registreer afwijzing verzoek ontheffing</code>.</li>
@@ -149,7 +147,68 @@
     </div>
 </details>
 <details open>
+    <summary class="collapsible__label">Controleer aangeleverd bewijsstuk</summary>
+    <div class="collapsible__content">
+        <ol>
+<li>Ga naar <code>OSIRIS Aanmelding &gt; Aanmeldingen</code> (2.1.18).</li>
+<li>Klik op het proces <code>BA_M_ONT_**</code>en controleer onder de rubriek &ldquo;Formulier: uploads&rdquo; het aangeleverde bewijs onder het checklistitem &ldquo;-Bijlagen&rdquo;. </li>
+<li>Beoordeel of het document akkoord is, door te kijken naar naam, adres en datum. </li>
+<li>Mocht het bewijs onvoldoende zijn, houd dit scherm dan over en ga naar de volgende stap. Mocht het voldoende zijn, sla de volgende stap dan over en ga naar &lsquo;Registreer toekenning verzoek ontheffing&rsquo;</li>
+</ol>
+    </div>
+</details>
+<details open>
+    <summary class="collapsible__label">Onvoldoende bewijs</summary>
+    <div class="collapsible__content">
+        <ol>
+<li>Ga naar &lsquo;Uploads&rsquo; onder &ldquo;Formulier: Uploads&rdquo; en klik op het rode uitroepteken. In &lsquo;Wijzig status&rsquo;, selecteer bij *&rsquo;Status&rsquo; &lsquo;Onvoldoende&rsquo;. Noteer bij &lsquo;Opmerking student&rsquo; wat er ontbreekt en wat de student moet indienen. Klk op <code>OK</code>. </li>
+</ol>
+<h4>Resultaat</h4>
+<ol>
+<li>Rubriek &ldquo;Checklist: Dossier controle&rdquo; krijgt de status &lsquo;Afkeur upload&rsquo;. </li>
+<li>Student krijgt de mededeling <code>M_ONTHEF_AFK</code>. Hiermee krijgt de student nog een kans om een juist bewijsstuk te uploaden.</li>
+</ol>
+    </div>
+</details>
+<details open>
     <summary class="collapsible__label">Registreer toekenning verzoek ontheffing</summary>
+    <div class="collapsible__content">
+        <ol>
+<li>Controleer of het dossier compleet is. Ga naar rubriek &ldquo;Checklist: Dossier controle&rdquo;. Indien compleet, selecteer &ldquo;Ja&rdquo; en sla op <code>&lt;<kbd>ctrl</kbd> + <kbd>s</kbd>&gt;</code>.</li>
+<li>Beoordeel of het ontheffingsverzoek akkoord is. Ga naar rubriek &ldquo;Checklist: Verwerking&rdquo;. Indien akkoord, selecteer &ldquo;Toegekend&rdquo; en sla op <code>&lt;<kbd>ctrl</kbd> + <kbd>s</kbd>&gt;</code>. </li>
+<li>Ga naar proces <code>BA2526_MATCHING</code> en klik op <code>Acties</code> (rechtsbovenin) en vervolgens &lsquo;Rubriek toepassen of verwijderen&rsquo;.</li>
+<li>Kies bij &lsquo;*Rubriek&rsquo; voor &lsquo;Registratie ontheffing matching&rsquo; (<code>ONTHEFFING</code>) en bij &lsquo;Actie&rsquo; de optie &lsquo;Toepassen&rsquo;. </li>
+<li>De rubriek &ldquo;Checklist: Registratie ontheffing matching&rdquo; ontstaat. Deze is te vinden onderaan de lijst rubrieken. </li>
+<li>Zet het checklistitem &lsquo;Ontheffing registreren&rsquo; op &lsquo;Ja&rsquo;. </li>
+</ol>
+<h4>Resultaat</h4>
+<ol>
+<li>Het matchingsproces krijgt status &lsquo;Afgehandeld zonder besluit&rsquo;. Doen we dit niet dan wordt student alsnog uitgenodigd voor matchingsactiviteit. </li>
+<li>Inschrijfregel krijgt de juiste skc-velden: datum skc: 01-05-2025, resultaat skc: vrijstelling, toelaatbaar qua skc: Ja, vrijstelling. Doen we dit niet blijft (normaliter) stoplicht qua skc op geel staan (en kan dus niet ingeschreven worden)</li>
+<li>Student krijgt mededeling ‘Toekenning verzoek ontheffing’ (<code>M_ONTEF_OK</code>)</li>
+</ol>
+    </div>
+</details>
+<details open>
+    <summary class="collapsible__label">Registreer afwijzing verzoek ontheffing</summary>
+    <div class="collapsible__content">
+        <p>Mocht de student meermaals onvoldoende bewijs leveren dan kan de ontheffing afgewezen worden. </p>
+<ol>
+<li>Controleer of het dossier compleet is. Ga naar rubriek &ldquo;Checklist: Dossier controle&rdquo;. Indien niet compleet, selecteer &ldquo;Nee&rdquo; en sla op  <code>&lt;<kbd>ctrl</kbd> + <kbd>s</kbd>&gt;</code>.</li>
+<li>Beoordeel of het ontheffingsverzoek akkoord is. Ga naar rubriek &ldquo;Checklist: Verwerking&rdquo;. Indien niet akkoord, selecteer &ldquo;Afgekeurd&rdquo; en sla op <code>&lt;<kbd>ctrl</kbd> + <kbd>s</kbd>&gt;</code>. </li>
+<li>Ga naar proces <code>BA2526_MATCHING</code> en klik op <code>Acties</code> (rechtsbovenin) en vervolgens &lsquo;Rubriek toepassen of verwijderen&rsquo;.</li>
+<li>Kies bij &lsquo;*Rubriek&rsquo; voor &lsquo;Registratie ontheffing matching&rsquo; (<code>ONTHEFFING</code>) en bij &lsquo;Actie&rsquo; de optie &lsquo;Toepassen&rsquo;. </li>
+<li>De rubriek &ldquo;Checklist: Registratie ontheffing matching&rdquo; ontstaat. Deze is te vinden onderaan de lijst rubrieken. </li>
+<li>Zet het checklistitem &lsquo;Ontheffing registreren&rsquo; op &lsquo;Nee&rsquo;. </li>
+</ol>
+<h4>Resultaat</h4>
+<ol>
+<li>Student krijgt mededeling ‘Toekenning verzoek ontheffing’ (<code>M_ONTEF_NOK</code>)</li>
+</ol>
+    </div>
+</details>
+<details open>
+    <summary class="collapsible__label">Registreer toekenning verzoek meerdere aanmeldingen ontheffing</summary>
     <div class="collapsible__content">
         <p>Indien een student meerdere aanmeldingen heeft, dan kun je ontheffing voor alle aanmeldprocessen registreren.</p>
 <ol>
@@ -171,22 +230,9 @@ M_ACT_B_CSA    mededelingen/overige_processen/ontheffing/inwi...
 Name: href, dtype: object">M_ACT_B_CSA</a></li>
 </ol>
 <hr />
-<p>Zie <a class="crossref" href="../../../procesinformatie/registraties_in_het_proces.html">Registraties in het proces</a> voor de gevolgen voor het aanmeldproces.</p>
-    </div>
-</details>
-<details open>
-    <summary class="collapsible__label">Registreer afwijzing verzoek ontheffing</summary>
-    <div class="collapsible__content">
-        <ol>
-<li>Ga naar <code>OSIRIS Aanmelding &gt; Aanmeldingen</code> (2.1.18).</li>
-<li>Wijzig de status van de rubriek <code>Checklist: Kenmerken</code> naar ‘Van toepassing’. Hiermee worden de checklistitems opengezet voor bewerking.</li>
-<li>Wijzig de status van het checklistitem <code>Ontheffing</code> naar: ‘Nee’.</li>
-<li>Sla de wijzigingen op via <code>&lt;<kbd>ctrl</kbd> + <kbd>s</kbd>&gt;</code> of de knop <code>Opslaan</code> (rechtsboven).</li>
-<li>Verstuur het bericht <a class="crossref" href="../../../mededelingen/overige_processen/ontheffing/afwijzing_verzoek_ontheffing.html">M_ONT_NOK</a>.</li>
-</ol>
     </div>
 </details>            <div class="timestamps">
-                Aangemaakt: 17-05-2022 | laatst gewijzigd: 29-02-2024
+                Aangemaakt: 17-05-2022 | laatst gewijzigd: 01-04-2025
             </div>
         </article>
 <footer>
