@@ -27,6 +27,7 @@ _____
 
 ### Onvoldoende bewijs: checked
 1. Ga naar 'Uploads' onder "Formulier: Uploads" en klik op het rode uitroepteken. In 'Wijzig status', selecteer bij *'Status' 'Onvoldoende'. Noteer bij 'Opmerking student' wat er ontbreekt en wat de student moet indienen. Klk op `OK`. 
+1. Wat je als standaardreactie zou kunnen vermelden bij 'Opmerking student' is: "Als je in het buitenland woont en ontheffing van matching wilt aanvragen, moet je bewijs aanleveren dat je op het moment van de matchingactiviteit niet in Nederland bent. Geldige documenten zijn bijvoorbeeld een werk- of stagecontract, een verklaring van de gemeente, of een officieel document van een andere instantie. Het document moet duidelijk je naam, buitenlandse adres en een recente datum vermelden."
 
 #### Resultaat
 1. Rubriek "Checklist: Dossier controle" krijgt de status 'Afkeur upload'. 
