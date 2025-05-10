@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="../css/root.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/custom.css">
-
-<link rel="stylesheet" href="../css/main.css">
+    <script src="https://unpkg.com/vis-timeline@7.7.2/standalone/umd/vis-timeline-graph2d.min.js"></script>
+    <script type="module" src="https://lcvriend.github.io/wc-multi-selector/src/wc-multi-selector.js"></script>
+    <link rel="stylesheet" href="../css/kalender.css">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Kalender | Naslagwerk matching 2025/2026</title>
 </head>
 <body>
@@ -58,7 +60,46 @@
         <article>
             <h1 class="page__title">Kalender</h1>
             <hr>
-Nog op te leveren            <div class="timestamps">
+            <div>
+                <p>Hieronder vind je een kalender met per onderdeel de relevante matchingsdata voor het aankomende collegejaar. Je kunt met de muis door de kalender scrollen. Gebruik ctrl-scrollwheel om in- en uit- te zoomen. Klik op een item in de kalender om aanvullende informatie te verkrijgen. Met het selectiefilter kun je de selecteren welke onderdelen (faculteiten/opleidingen) je wilt zien in de kalender.</p>
+              </div>
+
+  <!-- START KALENDER -->
+  <div class="controls">
+      <label>Toon onderdelen:</label>
+      <multi-selector src="../data/opleiding-selectie.json" placeholder="Selecteer onderdelen..." name="onderdelen" mode="light"></multi-selector>
+      <button id="toggle-groups">Kalender openvouwen/sluiten</button>
+  </div>
+  <div class="container">
+      <div id="timeline"></div>
+      <div id="details-panel"></div>
+  </div>
+  <script type="module">
+      import { TimelineApp } from "../js/timeline.js"
+
+      document.addEventListener("DOMContentLoaded", () => {
+          const app = new TimelineApp()
+          app.initialize()
+      })
+  </script>
+  <script>
+  const selector = document.querySelector('multi-selector')
+  selector.settings = {
+      labels: {
+          all: "Alle onderdelen",
+          selection: "Geselecteerde onderdelen",
+          placeholder_search: "Zoeken..."
+      },
+      titles: {
+          unfold_groups: "groepen openvouwen: ctrl-]",
+          fold_groups: "groepen dichtklappen: ctrl-[",
+          show_selected: "toon geselecteerde items: ctrl-\\",
+          clear_filter: "zoekopdracht leegmaken",
+      }
+  }
+  </script>
+  <!-- END KALENDER -->
+            <div class="timestamps">
                 Aangemaakt: 10-03-2025 | laatst gewijzigd: 10-03-2025
             </div>
         </article>
@@ -120,4 +161,3 @@ Nog op te leveren            <div class="timestamps">
 </html>
 
     <!-- This site was built with the site builder at https://github.com/uu-asc/naslagwerk licensed under the GNU General Public License v3.0. -->
-    
