@@ -17,13 +17,13 @@ Betreft, 'alle studenten die voldoen aan de volgende criteria,
 _____
 |COLLAPSIBLE
 ### Verstuur herinnering:checked
-1. Ga naar scherm `Aanmeldingen` (2.3.01).
+1. Ga naar scherm 'Aanmeldingen' (`2.3.01`).
 1. Selecteer de standaardselectie [M-1-FOR-HER-DEADLINE] in het zoekscherm.
-1. Klik op `Zoeken`.
-1. Selecteer in de resultatenlijst alle regels (met `<ctrl-a>` of via `Bekijken > Selecteer alle rijen`).
-1. Klik onder `Acties` (rechtsboven) op `Verstuur mededeling aanmelding`.
-1. Selecteer bij `Mededeling` [M_FOR_H_D]
-1. Klik op `Verstuur`.
+1. Klik op 'Zoeken'.
+1. Selecteer in de resultatenlijst alle regels (met `<ctrl-a>` of via 'Bekijken > Selecteer alle rijen').
+1. Klik onder 'Acties' (rechtsboven) op 'Verstuur mededeling aanmelding'.
+1. Selecteer bij 'Mededeling' [M_FOR_H_D]
+1. Klik op 'Verstuur'.
 
 #### Resultaat
 De studenten ontvangen de mededeling [M_FOR_H_D] dat het matchingsformulier nog niet is ingediend en dat de deadline snel nadert.

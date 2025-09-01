@@ -15,16 +15,16 @@ Betreft, 'studenten van de eigen opleiding die voldoen aan de volgende criteria,
 _____
 |COLLAPSIBLE
 ### Verstuur herinnering:checked
-1. Ga naar scherm `Aanmeldingen` (2.3.01).
+1. Ga naar scherm 'Aanmeldingen' (`2.3.01`).
 1. Selecteer de standaardselectie [M-1-FOR-HER-ACT] in het zoekscherm.
 1. Vul in het zoekscherm de volgende velden:
     * Opleiding met de eigen opleidingscode
     * Klik op Zoeken.
-1. Selecteer in de resultatenlijst alle regels (met `<ctrl-a>` of via `Bekijken > Selecteer alle rijen`).
+1. Selecteer in de resultatenlijst alle regels (met `<ctrl-a>` of via 'Bekijken > Selecteer alle rijen').
 1. Klik op het envelopje bovenin de resultatenlijst.
 1. Selecteer de mededeling [M-FOR-H-****].
-1. Klik op `Volgende`.
-1. Klik op `Versturen`.
+1. Klik op 'Volgende'.
+1. Klik op 'Versturen'.
 
 #### Resultaat
 De studenten ontvangen de mededeling [M-FOR-H-****] dat het matchingsformulier nog niet is ingediend en dat de matchingsactiviteit over drie weken plaatsvindt.

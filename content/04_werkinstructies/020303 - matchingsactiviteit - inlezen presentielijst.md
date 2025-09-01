@@ -13,13 +13,13 @@ Betreft, 'studenten die zijn uitgenodigd voor de afgelopen matchingsactiviteit.'
 _____
 |COLLAPSIBLE
 ### Inlezen presentielijst:checked
-1. Ga naar scherm `Aanmeldingen` (2.3.01).
-1. Klik op `ACTIES` (rechtsboven) en selecteer: `Inlezen antwoorden dossier`.
+1. Ga naar scherm 'Aanmeldingen' (`2.3.01`).
+1. Klik op 'Acties' (rechtsboven) en selecteer: 'Inlezen antwoorden dossier'.
 1. Selecteer in het pop-up scherm:
-    * Voer het Matchingsproces (BA****_MATCHING) in bij het invulveld `Proces`.
-    * `Bestaande antwoorden overschrijven`: 'Nee'
-    * `Bestand`: kies het geconverteerde excelbestand met de presentielijst (zie [Conversie presentielijst])
-1. Klik op `Inlezen`.
+    * Voer het Matchingsproces (BA****_MATCHING) in bij het invulveld 'Proces'.
+    * 'Bestaande antwoorden overschrijven': 'Nee'
+    * 'Bestand': kies het geconverteerde excelbestand met de presentielijst (zie [Conversie presentielijst])
+1. Klik op 'Inlezen'.
 
 -----
 

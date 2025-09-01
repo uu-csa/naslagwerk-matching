@@ -1,6 +1,6 @@
 jNCOA
 |CONTAINER:page__synopsis
-Hier staat hoe je uit het `Dashboard aanmeldingen` een presentielijst kunt maken van de studenten die zijn uitgenodigd voor de komende matchingsactiviteit.
+Hier staat hoe je uit het 'Dashboard aanmeldingen' een presentielijst kunt maken van de studenten die zijn uitgenodigd voor de komende matchingsactiviteit.
 
 Deze presentielijst gebruik je bij het registreren van de aanwezigheid (zie [Inlezen presentielijst]) die de eindstatus van het proces (voldaan of afgewezen) bepaalt.
 _____
@@ -14,13 +14,13 @@ _____
 ### Maak presentielijst:checked
 Hier staat hoe je de presentielijst aanmaakt die bij [Inlezen presentielijst] gebruikt wordt om de aanwezigheid te registreren.
 
-1. Ga naar scherm `Dashboard aanmeldingen` (2.3.08).
-1. Selecteer het Dashboard `M-2-ACT-PRESENTIELIJST`.
-1. Selecteer de standaardselectie `[M-2-ACT-LIJST]`
-    - Bij `Vraag/checklist 2` vul 'O_DATUM_' aan met de opleidingscode.
-    - Bij `Antwoordcode 2` selecteer de correcte matchingsdatum via het vergrootglas.
+1. Ga naar scherm 'Dashboard aanmeldingen' (`2.3.08`).
+1. Selecteer het Dashboard 'M-2-ACT-PRESENTIELIJST'.
+1. Selecteer de standaardselectie '[M-2-ACT-LIJST]'
+    - Bij 'Vraag/checklist 2' vul 'O_DATUM_' aan met de opleidingscode.
+    - Bij 'Antwoordcode 2' selecteer de correcte matchingsdatum via het vergrootglas.
     - Klik op Zoeken.
-1. Klik bovenin de resultatenlijst op het icoontje `Exporteer naar Microsoft Excel` en sla het bestand op.
+1. Klik bovenin de resultatenlijst op het icoontje 'Exporteer naar Microsoft Excel' en sla het bestand op.
 
 ---
 

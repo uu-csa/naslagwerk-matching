@@ -35,24 +35,24 @@ In deze stap controleer je of de matchingsdatum overeenkomt met de datum waarvoo
 ### Zet vraag over matchingsdatum dicht:checked
 In deze stap zet je de vraag over de matchingsdatum dicht zodat de student die zelf niet meer kan wijzigen.
 
-1. Klik op `Acties` (rechtsboven) en selecteer de optie `Mutatiestop instellen of opheffen`.
-1. Kies bij `Mutatiestop` ‘Instellen’, vink de rubriek `S_DATUM` aan en klik op `Uitvoeren`.
+1. Klik op 'Acties' (rechtsboven) en selecteer de optie 'Mutatiestop instellen of opheffen'.
+1. Kies bij 'Mutatiestop' 'Instellen', vink de rubriek `S_DATUM` aan en klik op 'Uitvoeren'.
 1. Houd het scherm open en ga naar de volgende stap.
 
 ### Verstuur uitnodiging:checked
 #### Kan student de standaard mededeling ontvangen?
 Als de student de `M-ACT-U-****` mededeling kan ontvangen:
-1. Zet checklistitem "ACTIE: Automatische uitnodiging activiteit versturen" op 'Ja'.
-1. Sla de wijzigingen op via `<ctrl-s>` of de knop `Opslaan` (rechtsboven).
+1. Zet checklistitem 'ACTIE: Automatische uitnodiging activiteit versturen' op 'Ja'.
+1. Sla de wijzigingen op via `<ctrl-s>` of de knop 'Opslaan' (rechtsboven).
 
 #### Moet student geen of een handmatige mededeling ontvangen?
 1. Zet checklistitem "Student uitgenodigd?" op 'Ja'. Checklistitem "ACTIE: Automatische uitnodiging activiteit versturen" blijft leeg.
-1. Sla de wijzigingen op via `<ctrl-s>` of de knop `Opslaan` (rechtsboven).
+1. Sla de wijzigingen op via `<ctrl-s>` of de knop 'Opslaan' (rechtsboven).
 1. Stuur eventueel via het envelopje (rechtsboven) een apart bericht aan de student.
 
 #### Resultaat
 - Rubriekstatus wijzigt naar 'Uitgenodigd' (`UITGENODIGD`) (nodig om makkelijk te kunnen selecteren op de studenten die je hebt uitgenodigd voor de betreffende matchingsdag).
-- Checklistitem "Sunrise datum" wordt automatisch op '1-1-2025' gezet. Dit hoeft niet meer handmatig ingevoerd te worden.
+- Checklistitem 'Sunrise datum' wordt automatisch op '1-1-2025' gezet. Dit hoeft niet meer handmatig ingevoerd te worden.
 - Tegelijk met de registratie dat de student is uitgenodigd krijgt de student automatisch toegang tot een Sunrise-account.
 
 -----

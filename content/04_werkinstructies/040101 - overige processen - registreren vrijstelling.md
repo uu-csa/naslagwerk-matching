@@ -8,8 +8,8 @@ Wanneer, nadat verzoek om vrijstelling is goedgekeurd
 Hoe, individueel
 Betreft, studenten van de eigen opleiding die voldoen aan de volgende criteria:
 
--	actief inschrijfverzoek voor bacheloropleiding met matching
--	matchingsproces is gestart
+- actief inschrijfverzoek voor bacheloropleiding met matching
+- matchingsproces is gestart
 _____
 |COLLAPSIBLE
 ### Registreer vrijstelling: checked
