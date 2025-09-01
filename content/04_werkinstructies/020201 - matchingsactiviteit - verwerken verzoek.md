@@ -6,9 +6,9 @@ Let op dat het formulier ingediend moet zijn om het verzoek te kunnen verwerken.
 _____
 |CARD
 Wie, Faculteit
-Wanneer, nadat student tijdig verzoek alternatieve datum heeft ingediend
-Hoe, individueel
-Betreft, studenten van de eigen opleiding die voldoen aan de volgende criteria:
+Wanneer, twee weken voor de matchingsactiviteit
+Hoe, groepsgewijs
+Betreft, 'studenten van de eigen opleiding die voldoen aan de volgende criteria:
 
 - actief inschrijfverzoek voor bacheloropleiding met matching
 - matchingsformulier heeft de status 'Ingediend'
