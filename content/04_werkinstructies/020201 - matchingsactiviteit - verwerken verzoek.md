@@ -10,10 +10,10 @@ Wanneer, twee weken voor de matchingsactiviteit
 Hoe, groepsgewijs
 Betreft, 'studenten van de eigen opleiding die voldoen aan de volgende criteria:
 
-- actief inschrijfverzoek voor bacheloropleiding met matching
-- matchingsformulier heeft de status 'Ingediend'
-- (eventueel) uitgenodigd voor de komende matchingsactiviteit
-- verzoek alternatieve datum is vóór of op de matchingsdatum gedaan'
+* actief inschrijfverzoek voor bacheloropleiding met matching
+* matchingsformulier heeft de status 'Ingediend'
+* (eventueel) uitgenodigd voor de komende matchingsactiviteit
+* verzoek alternatieve datum is vóór of op de matchingsdatum gedaan'
 _____
 |COLLAPSIBLE
 ### Registreer toewijzing verzoek:checked
