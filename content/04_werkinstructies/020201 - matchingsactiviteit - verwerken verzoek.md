@@ -5,10 +5,10 @@ Hier staat hoe je een beoordeeld ‘verzoek alternatieve datum’ verwerkt. Indi
 Let op dat het formulier ingediend moet zijn om het verzoek te kunnen verwerken.
 _____
 |CARD
-Wie,     Faculteit
+Wie, Faculteit
 Wanneer, nadat student tijdig verzoek alternatieve datum heeft ingediend
-Hoe,     individueel
-Betreft, 'studenten van de eigen opleiding die voldoen aan de volgende criteria:
+Hoe, individueel
+Betreft, studenten van de eigen opleiding die voldoen aan de volgende criteria:
 
 - actief inschrijfverzoek voor bacheloropleiding met matching
 - matchingsformulier heeft de status 'Ingediend'
