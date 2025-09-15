@@ -12,7 +12,7 @@ Betreft, 'studenten van de eigen opleiding die voldoen aan de volgende criteria:
 
 * actief inschrijfverzoek voor bacheloropleiding met matching
 * matchingsformulier heeft de status 'Ingediend'
-* (eventueel) uitgenodigd voor de komende matchingsactiviteit
+* uitgenodigd voor de komende matchingsactiviteit (mogelijk)
 * verzoek alternatieve datum is vóór of op de matchingsdatum gedaan'
 _____
 |COLLAPSIBLE
@@ -24,7 +24,7 @@ In deze stap registreer je dat het verzoek van de student is goedgekeurd en wat 
 #### Als de student wel eerder uitgenodigd is
 1. Zoek de student op in OSIRIS.
 1. Ga naar 'OSIRIS Aanmelding > Aanmeldingen' (`2.1.18`).
-1. Zet de status van de rubriek 'Checklist: Datum matchingsactiviteit' terug op 'In behandeling' en sla op `<ctrl-s>`. 
+1. Zet de status van de rubriek 'Checklist: Uitnodiging activiteit' terug op 'In behandeling' en sla op `<ctrl-s>`. 
 1. Selecteer bij de rubriek 'Formulier: Datum matchingsactiviteit' de nieuwe matchingsdatum voor de student. Klik hiervoor op het potloodicoon en kies de juiste datum bij 'Antwoord'.
 1. Ga naar de rubriek 'Checklist: Uitnodiging activiteit' (`VOOR_ACTIVITEIT`) en zet 'VAD ingediend' op 'Ja'. Na opslaan `<ctrl-s>` klapt de checklist verder open.
 1. Vul bij 'TOEWIJZING | Reden toewijzing VAD' onder welke categorie het verzoek valt en sla de wijzigingen op via `<ctrl-s>` of de knop 'Opslaan'.
