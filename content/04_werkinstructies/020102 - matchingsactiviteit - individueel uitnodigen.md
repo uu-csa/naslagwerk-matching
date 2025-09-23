@@ -29,7 +29,7 @@ In deze stap controleer je of de matchingsdatum overeenkomt met de datum waarvoo
 
 1. Zoek de student op in OSIRIS.
 1. Ga naar `OSIRIS Aanmelding > Aanmeldingen` (2.1.18).
-1. Controleer bij de vraag `Datum keuze` of de juiste datum gevuld is en pas deze zo nodig aan door op het potloodje te klikken en de juiste datum te selecteren.
+1. Controleer bij de vraag 'Datum keuze' of de juiste datum gevuld is en pas deze zo nodig aan door op het potloodje te klikken en de juiste datum te selecteren.
 1. Houd het scherm open en ga naar de volgende stap.
 
 ### Zet vraag over matchingsdatum dicht:checked
