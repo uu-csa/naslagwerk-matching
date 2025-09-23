@@ -13,7 +13,7 @@ Betreft, 'studenten die zijn hebben deelgenomen aan een matchingsactiviteit.'
 
 _____
 |COLLAPSIBLE
-### Zoek de student op in OSIRIS
+### Zoek student op in OSIRIS
 1.  Ga naar scherm 2.1 (Student)en voer het studentnummer in, óf ga naar scherm 2.3.01 (Aanmeldingen) en voer daar het studentnummer in.  
 1.  Open in het studentdossier Osiris Aanmelding 'Aanmeldingen' (2.1.18).  
 
