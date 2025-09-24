@@ -2,10 +2,9 @@
 Datum: 23 september 2025
 
 Gewijzigd
-- Vragen verwijderd uit het matchingsformulier (nav verzoek faculteiten).
-- Bevestiging van het matchingsformulier aangepast.
-- Kleine tekstuele verduidelijkingen doorgevoerd.
+- Vragen verwijderd/ aangepast uit het matchingsformulier (nav verzoek faculteiten).
+- Bevestiging matchingsformulier (M_FOR_B_CSA) aangepast.
 
 Toegevoegd
-- Toelatingseisen opgenomen met een verwijzing naar de website van de opleiding.
-- Naslagwerk: Pagina Werkinstructies/ Matchingsactiviteit/ Registreren aanwezigheid (individueel) toegevoegd.
+- Toelatingseisen opleidingen opgenomen met een verwijzing naar de website van de opleiding.
+- Naslagwerk: Pagina Werkinstructies-Matchingsactiviteit-Registreren aanwezigheid (individueel) toegevoegd.

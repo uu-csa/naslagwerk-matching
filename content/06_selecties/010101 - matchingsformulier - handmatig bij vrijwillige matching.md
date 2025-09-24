@@ -11,5 +11,5 @@ Tabblad, Filter, Operator, Waarde
 **Personalia**, Studentnummer, =, [betreffende student]
 , Overleden?, =, Nee
 **Opleiding**, Opleiding, =, [betreffende opleiding]
-**Inschrijving opleiding**, Collegejaar, =, 2024
+**Inschrijving opleiding**, Collegejaar, =, 2026
 , Datum intrekken vooraanmelding, *is leeg*,

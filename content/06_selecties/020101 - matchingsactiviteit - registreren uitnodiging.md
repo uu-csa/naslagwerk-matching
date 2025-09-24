@@ -9,7 +9,7 @@ _____
 |FLEXTABLE
 Tabblad,        Filter,            Operator, Waarde
 **Personalia**, Overleden?,        =,        Nee
-**Aanmelding**, Proces,            =,        BA2425_MATCHING
+**Aanmelding**, Proces,            =,        BA2627_MATCHING
               , Status,            =,        I; B
               , Vraag/checklist,   =,        UITGENODIGD
               , Antwoordcode,      =,        Nee
