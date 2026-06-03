@@ -4,12 +4,13 @@ Een aanmelding in OSIRIS Aanmelden valt grofweg in twee delen uiteen:
 1. Vragen die de student moet beantwoorden: de vragenlijst.
 2. Stappen die de instelling moet nemen om de aanmelding verder af te handelen: de checklist.
 
-Hoe een aanmelding in elkaar zit, wordt gedefinieerd in het aanmeldproces. Het aanmeldproces voor de matching 2020-2021 heet:
+Hoe een aanmelding in elkaar zit, wordt gedefinieerd in het aanmeldproces. Het aanmeldproces voor de matching heet:
 
-        `BA2021_MATCHING`
+        `BA<JAARTAL>_MATCHING`
 
 Een student met een Nederlandse vooropleiding die in Studielink een inschrijfverzoek doet voor een bacheloropleiding met matching krijgt dit proces aan zijn/haar inschrijfverzoek gekoppeld.
 Koppeling van het matchingsproces gebeurt voor reguliere studenten automatisch, maar dit kan ook handmatig.
+
 In de volgende gevallen wordt een proces handmatig gekoppeld:
 _____
 |FLEXTABLE

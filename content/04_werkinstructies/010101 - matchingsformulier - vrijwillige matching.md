@@ -17,18 +17,15 @@ Betreft, 'studenten van de eigen opleiding die voldoen aan de volgende criteria:
 _____
 |COLLAPSIBLE
 ### Koppel proces aan inschrijfregel:checked
-In deze stap koppel je het matchingsproces aan de betreffende inschrijfregel. De student ontvangt een uitnodiging om het matchingsformulier in te vullen (zie [M-FOR-U-****]).
+In deze stap koppel je het matchingsproces aan de betreffende student/inschrijfregel. De student ontvangt een uitnodiging om het matchingsformulier in te vullen (zie [M-FOR-U-****]).
 
-1. Ga naar scherm 'Starten aanmeldingen' (`2.3.02`).
-1. Selecteer de standaardselectie [M-1-FOR-HANDM]
-1. Vul in het zoekscherm de volgende velden:
-    * Studentnummer
-    * Opleiding met de eigen opleidingscode
+1. Ga naar scherm 'Student - Zoek' (`2.1`).
+1. Vul in het zoekscherm het studentnummer van de desbetreffende student
 1. Klik op 'Zoeken'.
-1. Selecteer de relevante inschrijfregel in de resultatenlijst.
-1. Klik op 'Actie: Starten aanmeldingen' (rechtsboven).
-1. Voer de code van het matchingsproces (`BA****_MATCHING`) in bij het invulveld 'Proces'.
-1. Klik op 'Aanmeldingen starten' ('Criteria automatisch starten toepassen?' moet op 'Nee' blijven staan.)
+1. Ga naar de student en naar het scherm 'Aanmeldingen' (`2.1.18`).
+1. Klik rechtsbovenin op 'Actie: Staraanmeldingen'.
+1. Voer de opleidingscode bij 'Aanmelding/inschrijving' en de code matchingsproces (`BA****_MATCHING`) in bij 'Proces'.
+1. Klik op 'Start aanmelding' ('Criteria automatisch starten toepassen?' moet op 'Nee' blijven staan.)
 
 #### Resultaat
 Het matchingsrpoces wordt opgestart en de student ontvangt de mededeling [M-FOR-U-****] om het formulier in te vullen.

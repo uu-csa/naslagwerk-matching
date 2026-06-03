@@ -17,6 +17,16 @@ _____
 > * Je kunt pas uitnodigen voor een matchingsdatum als deze datum dichtstaat in het matchingsformulier. Controleer dus eerst in de tabel [Matchingsdata] of de datum 'Dicht' verstreken is.
 > * Controleer bij het maken van de selectie of er nog processen in behandeling zijn van studenten die een eerdere (reeds verstreken) matchingsdatum gekozen hebben.
 
+**Aanvullende instructie – koppeling Sunrise accounts en Brightspace bij cursusinschrijvingen**
+Bij cursusinschrijvingen van studenten in Osiris is het van belang rekening te houden met de verwerkingstijd van Sunrise accounts in Brightspace.
+De koppeling tussen Osiris en Brightspace vindt direct plaats. Dit betekent dat een inschrijving in Osiris pas goed wordt verwerkt in Brightspace wanneer het Sunrise account al volledig is aangemaakt en beschikbaar is.
+
+Bij grotere aantallen studenten kan het aanmaken en beschikbaar stellen van Sunrise accounts langer duren. Hierdoor kan het voorkomen dat de koppeling niet goed verloopt als deelnemers direct na het aanmaken van accounts worden ingeschreven.
+
+Advies werkwijze:
+* Maak Sunrise accounts bij voorkeur in de ochtend aan.
+* Schrijf deelnemers pas in de middag in op de matchingcursus in Osiris.
+
 _____
 |COLLAPSIBLE
 ### Zet vraag over matchingsdatum dicht:checked

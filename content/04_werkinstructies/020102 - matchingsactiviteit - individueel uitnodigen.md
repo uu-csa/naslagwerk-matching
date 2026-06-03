@@ -52,7 +52,7 @@ Als de student de `M-ACT-U-****` mededeling kan ontvangen:
 
 #### Resultaat
 - Rubriekstatus wijzigt naar 'Uitgenodigd' (`UITGENODIGD`) (nodig om makkelijk te kunnen selecteren op de studenten die je hebt uitgenodigd voor de betreffende matchingsdag).
-- Checklistitem 'Sunrise datum' wordt automatisch op '1-1-2025' gezet. Dit hoeft niet meer handmatig ingevoerd te worden.
+- Checklistitem 'Sunrise datum' wordt automatisch op '1-1-<datum vorig collegejaar>' gezet. Dit hoeft niet meer handmatig ingevoerd te worden.
 - Tegelijk met de registratie dat de student is uitgenodigd krijgt de student automatisch toegang tot een Sunrise-account.
 
 -----

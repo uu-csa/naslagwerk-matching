@@ -27,38 +27,44 @@ _____
 
 ### Onvoldoende bewijs: checked
 1. Ga naar 'Uploads' onder 'Formulier: Uploads' en klik op het rode uitroepteken. In 'Wijzig status', selecteer bij *'Status' 'Onvoldoende'. Noteer bij 'Opmerking student' wat er ontbreekt en wat de student moet indienen. Klk op `OK`. 
-1. Wat je als standaardreactie zou kunnen vermelden bij 'Opmerking student' is: "Als je in het buitenland woont en ontheffing van matching wilt aanvragen, moet je bewijs aanleveren dat je op het moment van de matchingactiviteit niet in Nederland bent. Geldige documenten zijn bijvoorbeeld een werk- of stagecontract, een verklaring van de gemeente, of een officieel document van een andere instantie. Het document moet duidelijk je naam, buitenlandse adres en een recente datum vermelden."
+1. Wat je als standaardreactie zou kunnen vermelden bij 'Opmerking student' is: 
+
+NL:
+Als je in het buitenland woont en ontheffing van matching wilt aanvragen, moet je bewijs aanleveren dat je op het moment van de matchingactiviteit niet in Nederland bent. Geldige documenten zijn bijvoorbeeld een werk- of stagecontract, een verklaring van de gemeente, of een officieel document van een andere instantie. Het document moet duidelijk je naam, buitenlandse adres en een recente datum vermelden.
+
+ENG:
+If you live abroad and want to request an exemption from the matching process, you must provide proof that you are not in the Netherlands at the time of the matching activity. Valid documents include, for example, an employment or internship contract, a statement from the municipality, or an official document from another authority. The document must clearly state your name, your foreign address, and a recent date.
 
 #### Resultaat
 1. Rubriek 'Checklist: Dossier controle' krijgt de status 'Afkeur upload'. 
-2. Student krijgt de mededeling `M_ONTHEF_AFK`. Hiermee krijgt de student nog een kans om een juist bewijsstuk te uploaden.
+2. Student krijgt de mededeling `M_ONTHEF_AFK`. Hiermee krijgt de student nog een kans om een juist bewijsstuk te uploaden. Er gaat een termijnbewaking lopen.
 
 
 ### Registreer toekenning verzoek ontheffing:checked
 1. Controleer of het dossier compleet is. Ga naar rubriek "Checklist: Dossier controle". Indien compleet, selecteer "Ja" en sla op `<ctrl-s>`.
 1. Beoordeel of het ontheffingsverzoek akkoord is. Ga naar rubriek "Checklist: Verwerking". Indien akkoord, selecteer "Toegekend" en sla op `<ctrl-s>`. 
-1. Ga naar proces `BA2526_MATCHING` en klik op 'Acties' (rechtsbovenin) en vervolgens 'Rubriek toepassen of verwijderen'.
-1. Kies bij '*Rubriek' voor 'Registratie ontheffing matching' (`ONTHEFFING`) en bij 'Actie' de optie 'Toepassen'. 
+1. Ga naar proces `BA****_MATCHING` en klik op 'Acties' (rechtsbovenin) en vervolgens 'Rubriek toepassen of verwijderen'.
+1. Kies bij 'Rubriek' voor 'Registratie ontheffing matching' (`ONTHEFFING`) en bij 'Actie' de optie 'Toepassen'. 
 1. De rubriek 'Checklist: Registratie ontheffing matching' ontstaat. Deze is te vinden onderaan de lijst rubrieken. 
 1. Zet het checklistitem 'Ontheffing registreren' op 'Ja'. 
 
 #### Resultaat
-1. Het matchingsproces krijgt status 'Afgehandeld zonder besluit'. Doen we dit niet dan wordt student alsnog uitgenodigd voor matchingsactiviteit. 
-1. Inschrijfregel krijgt de juiste skc-velden: datum skc: 01-05-2025, resultaat skc: vrijstelling, toelaatbaar qua skc: Ja, vrijstelling. Doen we dit niet blijft (normaliter) stoplicht qua skc op geel staan (en kan dus niet ingeschreven worden)
-1. Student krijgt mededeling ‘Toekenning verzoek ontheffing’ (`M_ONTEF_OK`)
+1. Het matchingsproces krijgt status 'Afgehandeld' zonder besluit. Doen we dit niet dan wordt student alsnog uitgenodigd voor matchingsactiviteit. 
+1. Inschrijfregel krijgt de juiste skc-velden: datum skc: 01-05-****, resultaat skc: vrijstelling, toelaatbaar qua skc: Ja, vrijstelling. Doen we dit niet blijft (normaliter) stoplicht qua skc op geel staan (en kan dus niet ingeschreven worden)
+1. Student krijgt mededeling ‘Toekenning ontheffing matching’ (`M_ONTEF_OK`)
 
 ### Registreer afwijzing verzoek ontheffing:checked
 Mocht de student meermaals onvoldoende bewijs leveren dan kan de ontheffing afgewezen worden. 
 
 1. Controleer of het dossier compleet is. Ga naar rubriek 'Checklist: Dossier controle'. Indien niet compleet, selecteer 'Nee' en sla op  `<ctrl-s>`.
 1. Beoordeel of het ontheffingsverzoek akkoord is. Ga naar rubriek "Checklist: Verwerking". Indien niet akkoord, selecteer 'Afgekeurd' en sla op `<ctrl-s>`. 
-1. Ga naar proces `BA2526_MATCHING` en klik op 'Acties' (rechtsbovenin) en vervolgens 'Rubriek toepassen of verwijderen'.
+1. Ga naar proces `BA****_MATCHING` en klik op 'Acties' (rechtsbovenin) en vervolgens 'Rubriek toepassen of verwijderen'.
 1. Kies bij '*Rubriek' voor 'Registratie ontheffing matching' (`ONTHEFFING`) en bij 'Actie' de optie 'Toepassen'. 
 1. De rubriek 'Checklist: Registratie ontheffing matching' ontstaat. Deze is te vinden onderaan de lijst rubrieken. 
 1. Zet het checklistitem 'Ontheffing registreren' op 'Nee'. 
 
 #### Resultaat
-1. Student krijgt mededeling ‘Toekenning verzoek ontheffing’ (`M_ONTEF_NOK`)
+1. Student krijgt mededeling ‘Afwijzing ontheffing matching’ (`M_ONTEF_NOK`)
 
 
 ### Registreer toekenning verzoek meerdere aanmeldingen ontheffing:checked

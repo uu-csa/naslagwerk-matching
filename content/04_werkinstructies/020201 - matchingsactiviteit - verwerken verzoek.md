@@ -41,10 +41,20 @@ In deze stap registreer je dat het verzoek van de student is goedgekeurd en wat 
 1. Indien de categorie 'Overige vorm van overmacht' is, vul dan ook het checklistitem 'Overige vorm van overmacht, namelijk:' in.
 1. Wijzig het checklistitem 'Beoordeling VAD' naar 'Toegewezen' en sla op.
 
+
 #### Resultaat
 - Rubriekstatus 'Checklist: Uitnodiging activiteit' (`VOOR_ACTIVITEIT`) wijzigt naar 'VAD Toegewezen' (`TOEGEWEZEN_VAD`).
 - Mededeling [M-ALT-OK-**] waarin de nieuwe matchingsdatum staat wordt naar de student gestuurd.
 - Checklistitem 'Student uitgenodigd?' wordt automatisch van 'Ja' naar 'Nee' teruggezet.
+
+#### Als er al eerder een VAD ingediend is
+1. Pas de matchingsdatum aan naar de gewenste datum en sla op `<ctrl-s>`
+1. De rubriek 'Checklist: Uitnodiging activiteit' mag je laten zoals het staat
+1. Ga rechtsbovenin naar 'Acties > Verstuur mededeling aanmelding’
+1. Kies voor het bericht 'M-ALT-OK-<NAAM FACULTEIT>' om het bevestigingsbericht handmatig te versturen naar de student
+
+#### Resultaat
+1. Het bericht wordt gevuld met de opleidingsnaam en de datum die op dat moment is opgeslagen in het proces
 
 -----
 
