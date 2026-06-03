@@ -36,7 +36,7 @@ In deze stap zet je de vraag over de matchingsdatum dicht zodat studenten die ze
 1. Selecteer de standaardselectie [M-2-ACT-UIT] in het zoekscherm.
 1. Vul in het zoekscherm de volgende velden:
     * Bij 'Vraag/checklist 3' vul `O_DATUM_` aan met de opleidingscode.
-    * Bij 'Antwoordcode 3' selecteer de correcte matchingsdatum via het vergrootglas.
+    * Bij 'Antwoordcode 2' de code van de maand van de matchingsactiviteit (voorbeeld: JUNI of met 2 matchingsdagen JUNI_1 of JUNI_2)
     * Klik op Zoeken.
 1. Selecteer in de resultatenlijst alle regels (met `<ctrl-a>` of via 'Bekijken > Selecteer alle rijen'). 
 1. Klik op 'Acties' (rechtsboven) en selecteer de optie 'Mutatiestop instellen of opheffen'.
