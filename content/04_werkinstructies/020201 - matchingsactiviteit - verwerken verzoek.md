@@ -11,7 +11,7 @@ Hoe, groepsgewijs
 Betreft, 'studenten van de eigen opleiding die voldoen aan de volgende criteria:
 
 * actief inschrijfverzoek voor bacheloropleiding met matching
-* matchingsformulier heeft de status 'Ingediend'
+* matchingsformulier heeft de status "Ingediend"
 * uitgenodigd voor de komende matchingsactiviteit (mogelijk)
 * verzoek alternatieve datum is vóór of op de matchingsdatum gedaan'
 _____
