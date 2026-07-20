@@ -14,7 +14,7 @@ _____
 ### Maak presentielijst:checked
 Hier staat hoe je de presentielijst aanmaakt die bij [Inlezen presentielijst] gebruikt wordt om de aanwezigheid te registreren.
 
-1. Ga naar scherm 'Dashboard aanmeldingen' (`2.3.08`).
+1. Ga in Osiris naar pagina 2.3.08 'Dashboard aanmeldingen'
 1. Selecteer het Dashboard 'M-2-ACT-PRESENTIELIJST'.
 1. Selecteer de standaardselectie '[M-2-ACT-LIJST]'
     - Bij 'Vraag/checklist 2' vul 'O_DATUM_' aan met de opleidingscode.

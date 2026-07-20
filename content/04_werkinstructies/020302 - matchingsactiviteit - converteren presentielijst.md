@@ -5,7 +5,7 @@ _____
 
 ---
 
-**[Link naar conversie pagina](https://lcvriend.pythonanywhere.com/matching.html)**
+**[Link naar conversie pagina](https://csa.uu.nl/matching-dashboard/#presentielijst)**
 
 ---
 
@@ -29,15 +29,11 @@ De laatste twee kolommen zijn nog leeg. In de eerste kolom vul je voor alle stud
 - Aanwezig = P
 - Afwezig = ND
 
-Sla het bestand op nadat je de presentielijst volledig en correct hebt ingevuld. OSIRIS kan de eigen Dashboard export helaas niet lezen. Daarom is nu nog een conversie nodig. Ga naar **[deze pagina](https://lcvriend.pythonanywhere.com/matching.html)**.
+Sla het bestand op nadat je de presentielijst volledig en correct hebt ingevuld. OSIRIS kan de eigen Dashboard export helaas niet lezen. Daarom is nu nog een conversie nodig. Ga naar **[deze pagina](https://csa.uu.nl/matching-dashboard/#presentielijst)**.
 
-1. Klik onder `File Upload` op `Browse...` en selecteer het excel-bestand dat je wilt converteren.
-2. Klik vervolgens op `Submit`
+1. Sleep of selecteer het excel-bestand dat je wilt converteren.
+2. Klik vervolgens op `Converteren`
 
 Het bestand wordt vervolgens automatisch geconverteerd en gedownload.
-
-> bestandsnaam = 'geconverteerd_export_dashboard_[datum_van_vandaag].xlsx'
-
-De gegevens worden via een encrypted verbinding naar en van de server verstuurd. De gegevens die je uploadt, worden alleen verwerkt en teruggestuurd. Geen van de gegevens worden opgeslagen op de server.
 
 Het gedownloade bestand kun je gebruiken bij [Inlezen presentielijst].
